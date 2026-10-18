@@ -7,14 +7,14 @@ export const CURRICULUM_DATA = {
     "gradient": "from-indigo-600 to-blue-600",
     "color": "#6366f1",
     "icon": "Calculator",
-    "resourceGuide": "notes/accounting/resource-guides/al-accounting-complete-resource-guide-2026.pdf",
+    "resourceGuide": "notes/acc/guides/al-accounting-complete-resource-guide-2026.pdf",
     "units": [
       {
         "unitNumber": 1,
         "unitCode": "unit-01",
         "title": "ගිණුම්කරණය හැඳින්වීම සහ පසුබිම",
         "englishTitle": "Introduction to Accounting & Environment",
-        "guidePath": "notes/accounting/master-guides/unit-01.md",
+        "guidePath": "notes/acc/mg/unit-01.md",
         "videoCount": 6,
         "videos": [
           {
@@ -52,126 +52,126 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "ඒකක 01 පුනරීක්ෂණ සාරාංශය (Revision Summary 01)",
-            "path": "notes/accounting/short-notes/accounting-revision-summary-01.pdf",
+            "path": "notes/acc/short/accounting-revision-summary-01.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "ක්ෂණික පුනරීක්ෂණ කෙටි සටහන (Quick Revision Note)",
-            "path": "notes/accounting/short-notes/accounting-quick-revision-short-note.pdf",
+            "path": "notes/acc/short/accounting-quick-revision-short-note.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "ගිණුම්කරණය සහ එහි අවශ්‍යතාවය - සම්පූර්ණ කෙටි සටහන",
-            "path": "notes/accounting/short-notes/accounting-and-its-need-summary.pdf",
+            "path": "notes/acc/short/accounting-and-its-need-summary.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "al-accounting-english-lesson-01-introduction.pdf",
-            "path": "notes/accounting/lesson-notes/english-medium/al_accounting_english_lesson_01__fb54af.pdf",
+            "path": "notes/acc/notes/en/al_accounting_english_lesson_01__fb54af.pdf",
             "size": 12774402
           },
           {
             "title": "accounting-unit-01-need-and-scope.pdf",
-            "path": "notes/accounting/lesson-notes/unit-01-need-and-scope-of-accounting/accounting_unit_01_need_and_scope.pdf",
+            "path": "notes/acc/notes/u01/accounting_unit_01_need_and_scope.pdf",
             "size": 6913413
           },
           {
             "title": "1.1ගිණුම්කරණය හා එහි අවශ්‍යතාව (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_12_Acc_1.1ok_(1).pdf",
+            "path": "notes/acc/ethak/unit_01_12_Acc_1.1ok_(1).pdf",
             "size": 796167,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31147"
           },
           {
             "title": "1.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_account_1.1_lo.pdf",
+            "path": "notes/acc/ethak/unit_01_account_1.1_lo.pdf",
             "size": 108829,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31146"
           },
           {
             "title": "ගුරු මාර්ගෝපදේශ සංග්‍රහය (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_SAL_Acc_Tim.pdf",
+            "path": "notes/acc/ethak/unit_01_SAL_Acc_Tim.pdf",
             "size": 1350183,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31143"
           },
           {
             "title": "විෂය නිර්දේශය (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_SAL_Acc_Syll.pdf",
+            "path": "notes/acc/ethak/unit_01_SAL_Acc_Syll.pdf",
             "size": 249906,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31144"
           },
           {
             "title": "1.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_account_1.2_lo.pdf",
+            "path": "notes/acc/ethak/unit_01_account_1.2_lo.pdf",
             "size": 186511,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31154"
           },
           {
             "title": "ගිණුම්කරණය හා එහි අවශ්‍යතාවය - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_SAL_Acc_U1_Introduction.pdf",
+            "path": "notes/acc/ethak/unit_01_SAL_Acc_U1_Introduction.pdf",
             "size": 1034513,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31153"
           },
           {
             "title": "1.1.1 ගිණුම්කරණ තොරතුරු භාවිතා කරන පාර්ශවයන් (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_SAL_Acc_U1_Ginumkaranaya_Introduction.pdf",
+            "path": "notes/acc/ethak/unit_01_SAL_Acc_U1_Ginumkaranaya_Introduction.pdf",
             "size": 442702,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31151"
           },
           {
             "title": "1.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_account_1.3_lo.pdf",
+            "path": "notes/acc/ethak/unit_01_account_1.3_lo.pdf",
             "size": 99399,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31158"
           },
           {
             "title": "1.1 ගිණුම්කරණ තොරතුරු භාවිතා කරන පාර්ශවයන් (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_SAL_Acc_U1_Ginumkarana_T_b74111.pdf",
+            "path": "notes/acc/ethak/unit_01_SAL_Acc_U1_Ginumkarana_T_b74111.pdf",
             "size": 1577628,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31149"
           },
           {
             "title": "1.3 ගිණුම්කරණ ක්‍රියාවලිය (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_12Acc_1.3_ok.pdf",
+            "path": "notes/acc/ethak/unit_01_12Acc_1.3_ok.pdf",
             "size": 694326,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31159"
           },
           {
             "title": "1.3 ගිණුම්කරණය ක්‍රියාවලිය (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_SAL_Acc_1.3_Ginumkarana_Kriyawaliya.pdf",
+            "path": "notes/acc/ethak/unit_01_SAL_Acc_1.3_Ginumkarana_Kriyawaliya.pdf",
             "size": 811461,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31160"
           },
           {
             "title": "1.2 ගිණුම්කරණ පරිසර සාධක (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_SAL_Acc_1.2_Ginumkarana_Parisaraya.pdf",
+            "path": "notes/acc/ethak/unit_01_SAL_Acc_1.2_Ginumkarana_Parisaraya.pdf",
             "size": 897730,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31155"
           },
           {
             "title": "හැඳින්වීම (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01.pdf",
+            "path": "notes/acc/ethak/unit_01.pdf",
             "size": 346283,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31366"
           },
           {
             "title": "නිපුණතා 01 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_01_01.pdf",
+            "path": "notes/acc/ethak/unit_01_01.pdf",
             "size": 680952,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31367"
@@ -819,7 +819,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-02",
         "title": "ගිණුම්කරණ සමීකරණය සහ ද්විත්ව සටහන්",
         "englishTitle": "Accounting Equation & Double Entry",
-        "guidePath": "notes/accounting/master-guides/unit-02.md",
+        "guidePath": "notes/acc/mg/unit-02.md",
         "videoCount": 15,
         "videos": [
           {
@@ -902,86 +902,86 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "ඒකක 02 පුනරීක්ෂණ සාරාංශය (Revision Summary 02)",
-            "path": "notes/accounting/short-notes/accounting-revision-summary-02.pdf",
+            "path": "notes/acc/short/accounting-revision-summary-02.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "ද්විත්ව සටහන් ක්‍රමය - සම්පූර්ණ කෙටි සටහන (Double Entry Short Note)",
-            "path": "notes/accounting/short-notes/double-entry-system-short-note.pdf",
+            "path": "notes/acc/short/double-entry-system-short-note.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "ගිණුම්කරණ සමීකරණය - Mind Map කෙටි සටහන",
-            "path": "notes/accounting/short-notes/accounting-equations-mindmap.pdf",
+            "path": "notes/acc/short/accounting-equations-mindmap.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "accounting-unit-02-accounting-equations.pdf",
-            "path": "notes/accounting/lesson-notes/unit-02-accounting-equations/accounting_unit_02_accounting_equations.pdf",
+            "path": "notes/acc/notes/u02/accounting_unit_02_accounting_equations.pdf",
             "size": 80300024
           },
           {
             "title": "2.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_02_account_2.2_lo.pdf",
+            "path": "notes/acc/ethak/unit_02_account_2.2_lo.pdf",
             "size": 109675,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31167"
           },
           {
             "title": "2.0 ව්‍යාපාරයක ගනුදෙනු හා සිද්ධීන් ගිණුම්කරණ සමීකරණය ඇසුරෙන් ඉදිරිපත් කිරීම (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_02_12_Acc_2.1_2.2ok.pdf",
+            "path": "notes/acc/ethak/unit_02_12_Acc_2.1_2.2ok.pdf",
             "size": 643069,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31163"
           },
           {
             "title": "2.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_02_account_2.1_lo.pdf",
+            "path": "notes/acc/ethak/unit_02_account_2.1_lo.pdf",
             "size": 108644,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31164"
           },
           {
             "title": "2.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_02_account_2.3_lo.pdf",
+            "path": "notes/acc/ethak/unit_02_account_2.3_lo.pdf",
             "size": 104326,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31169"
           },
           {
             "title": "2.3 ආදායම් ප්‍රකාශනය හා මූල්‍ය තත්ත්ව ප්‍රකාශනය පිළියෙල කිරීම (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_02_12_Acc_2.3ok.pdf",
+            "path": "notes/acc/ethak/unit_02_12_Acc_2.3ok.pdf",
             "size": 610456,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31170"
           },
           {
             "title": "ව්‍යාපාරයක ගණුදෙනු හා සිද්ධීන් ගිණුම්කරණ සමීකරණය ඇසුරින් (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_02_SAL_Acc_U2_Ginumkarana_Sameekarana.pdf",
+            "path": "notes/acc/ethak/unit_02_SAL_Acc_U2_Ginumkarana_Sameekarana.pdf",
             "size": 1250885,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31172"
           },
           {
             "title": "ව්‍යාපාරයක ගණුදෙණු හා සිද්ධීන් ගිණුම්කරණ සමීකරණය ඇසුරින් - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_02_SAL_Acc_U2_Business_Unit.pdf",
+            "path": "notes/acc/ethak/unit_02_SAL_Acc_U2_Business_Unit.pdf",
             "size": 2462980,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31173"
           },
           {
             "title": "නිපුණතාව 2: ගිණුම්කරණ සමීකරණය සහ ද්විත්ව සටහන් - බහුවරණ ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_02_3.pdf",
+            "path": "notes/acc/ethak/unit_01_02_3.pdf",
             "size": 722686,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31369"
           },
           {
             "title": "නිපුණතාව 2: ගිණුම්කරණ සමීකරණය සහ ද්විත්ව සටහන් - බහුවරණ පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_02_1.pdf",
+            "path": "notes/acc/ethak/unit_01_02_1.pdf",
             "size": 613548,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31370"
@@ -1091,7 +1091,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-03",
         "title": "ද්විත්ව සටහන් ක්‍රමයට අනුව ගනුදෙනු සටහන් කිරීම",
         "englishTitle": "Recording Transactions in Double Entry",
-        "guidePath": "notes/accounting/master-guides/unit-03.md",
+        "guidePath": "notes/acc/mg/unit-03.md",
         "videoCount": 6,
         "videos": [
           {
@@ -1129,48 +1129,48 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "ඒකක 03 පුනරීක්ෂණ සාරාංශය (Revision Summary 03)",
-            "path": "notes/accounting/short-notes/accounting-revision-summary-03.pdf",
+            "path": "notes/acc/short/accounting-revision-summary-03.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "3.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_03_account_3.2_lo.pdf",
+            "path": "notes/acc/ethak/unit_03_account_3.2_lo.pdf",
             "size": 105355,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31178"
           },
           {
             "title": "3.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_03_account_3.1_lo.pdf",
+            "path": "notes/acc/ethak/unit_03_account_3.1_lo.pdf",
             "size": 106879,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31176"
           },
           {
             "title": "ගණුදෙනුවක ද්විත්ව සටහන - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_03_SAL_Acc_U3_Transaction.pdf",
+            "path": "notes/acc/ethak/unit_03_SAL_Acc_U3_Transaction.pdf",
             "size": 851645,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31179"
           },
           {
             "title": "3.1/3.2 ද්විත්ව සටහන් ක්‍රමයට අනුව ගනුදෙනු හා සිද්ධීන් ගිණුම්ගත කිරීම (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_03_Doc1.pdf",
+            "path": "notes/acc/ethak/unit_03_Doc1.pdf",
             "size": 2563922,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31180"
           },
           {
             "title": "නිපුණතාව 3: ද්විත්ව සටහන් ක්‍රමයට අනුව ගනුදෙනු සටහන් කිරීම - බහුවරණ පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_03_1.pdf",
+            "path": "notes/acc/ethak/unit_01_03_1.pdf",
             "size": 601891,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31372"
           },
           {
             "title": "නිපුණතාව 3: ද්විත්ව සටහන් ක්‍රමයට අනුව ගනුදෙනු සටහන් කිරීම - බහුවරණ ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_03_2.pdf",
+            "path": "notes/acc/ethak/unit_01_03_2.pdf",
             "size": 695476,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31371"
@@ -1216,7 +1216,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-04",
         "title": "ප්‍රභව ලේඛන, මූලික සටහන් පොත් සහ ලෙජරය",
         "englishTitle": "Books of Prime Entry & Ledger",
-        "guidePath": "notes/accounting/master-guides/unit-04.md",
+        "guidePath": "notes/acc/mg/unit-04.md",
         "videoCount": 51,
         "videos": [
           {
@@ -1479,222 +1479,222 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "ඒකක 04 පුනරීක්ෂණ සාරාංශය (Revision Summary 04)",
-            "path": "notes/accounting/short-notes/accounting-revision-summary-04.pdf",
+            "path": "notes/acc/short/accounting-revision-summary-04.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "ගිණුම්කරණ ක්‍රියාවලිය සාරාංශය - 02 කොටස (Accounting Process Part 2)",
-            "path": "notes/accounting/short-notes/accounting-process-summary-part-2.pdf",
+            "path": "notes/acc/short/accounting-process-summary-part-2.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "ගිණුම්කරණ ක්‍රියාවලිය සාරාංශය - 01 කොටස (Accounting Process Part 1)",
-            "path": "notes/accounting/short-notes/accounting-process-summary-part-1.pdf",
+            "path": "notes/acc/short/accounting-process-summary-part-1.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "al-accounting-english-lesson-04-prime-entry-books.pdf",
-            "path": "notes/accounting/lesson-notes/english-medium/al_accounting_english_lesson_04__2659e8.pdf",
+            "path": "notes/acc/notes/en/al_accounting_english_lesson_04__2659e8.pdf",
             "size": 17208012
           },
           {
             "title": "accounting-unit-04-prime-entry-books-part-1.pdf",
-            "path": "notes/accounting/lesson-notes/unit-04-prime-entry-books/accounting_unit_04_prime_entry_b_5357c7.pdf",
+            "path": "notes/acc/notes/u04/accounting_unit_04_prime_entry_b_5357c7.pdf",
             "size": 56924021
           },
           {
             "title": "accounting-unit-04-prime-entry-books-part-2.pdf",
-            "path": "notes/accounting/lesson-notes/unit-04-prime-entry-books/accounting_unit_04_prime_entry_b_c0a798.pdf",
+            "path": "notes/acc/notes/u04/accounting_unit_04_prime_entry_b_c0a798.pdf",
             "size": 60025374
           },
           {
             "title": "4.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_account_4.2_lo.pdf",
+            "path": "notes/acc/ethak/unit_04_account_4.2_lo.pdf",
             "size": 109827,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31184"
           },
           {
             "title": "4.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_account_4.1_lo.pdf",
+            "path": "notes/acc/ethak/unit_04_account_4.1_lo.pdf",
             "size": 185581,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31182"
           },
           {
             "title": "4.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_account_4.3_lo.pdf",
+            "path": "notes/acc/ethak/unit_04_account_4.3_lo.pdf",
             "size": 109609,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31189"
           },
           {
             "title": "4.5 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_account_4.5_lo.pdf",
+            "path": "notes/acc/ethak/unit_04_account_4.5_lo.pdf",
             "size": 108324,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31196"
           },
           {
             "title": "ව්‍යාපාරයක මුදල් ගෙවීම් (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_SAL_Acc_U4__Mudal_Geveem.pdf",
+            "path": "notes/acc/ethak/unit_04_SAL_Acc_U4__Mudal_Geveem.pdf",
             "size": 886942,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31188"
           },
           {
             "title": "බැංකු ජංගම ගිණුමක් පවත්වා ගෙන යාම - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_SAL_Acc_U4_Bank_statements_4.pdf",
+            "path": "notes/acc/ethak/unit_04_SAL_Acc_U4_Bank_statements_4.pdf",
             "size": 750467,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31199"
           },
           {
             "title": "4.4 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_account_4.4_lo.pdf",
+            "path": "notes/acc/ethak/unit_04_account_4.4_lo.pdf",
             "size": 115362,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31192"
           },
           {
             "title": "බැංකු ගිණුම් ප්‍රකාශනය - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_SAL_Acc_U4_Bank_statements.pdf",
+            "path": "notes/acc/ethak/unit_04_SAL_Acc_U4_Bank_statements.pdf",
             "size": 690280,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31200"
           },
           {
             "title": "4.3 සුළු වියදම් හා බැඳි ගනුදෙනු සටහන් කිරීමට සුළු ගෙවීම් ජර්නලය පවත්වා ගනියි. (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_12_Acc_4.3.pdf",
+            "path": "notes/acc/ethak/unit_04_12_Acc_4.3.pdf",
             "size": 1284919,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31190"
           },
           {
             "title": "4.5.4 මුලාශ්‍ර ලේඛන - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_SAL_Acc_U4.5.4_Source_Documents.pdf",
+            "path": "notes/acc/ethak/unit_04_SAL_Acc_U4.5.4_Source_Documents.pdf",
             "size": 482630,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31201"
           },
           {
             "title": "4.5 - වෙළෙඳ භාණ්ඩ ණයට ගැනීම සම්බන්ධ තොරතුරු පවත්වා ගනියි. (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_12_Acc_4.5.pdf",
+            "path": "notes/acc/ethak/unit_04_12_Acc_4.5.pdf",
             "size": 1197106,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31198"
           },
           {
             "title": "4.5.6 මුලාශ්‍ර ලේඛන - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_SAL_Acc_U4.5.6_Source_Documents.pdf",
+            "path": "notes/acc/ethak/unit_04_SAL_Acc_U4.5.6_Source_Documents.pdf",
             "size": 473836,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31203"
           },
           {
             "title": "4.7 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_account_4.7_lo.pdf",
+            "path": "notes/acc/ethak/unit_04_account_4.7_lo.pdf",
             "size": 104397,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31207"
           },
           {
             "title": "4.6 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_account_4.6_lo.pdf",
+            "path": "notes/acc/ethak/unit_04_account_4.6_lo.pdf",
             "size": 109523,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31205"
           },
           {
             "title": "ගණුදෙනු ලෙජරයට පිටපත් කිරීම - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_Sg12_Acc_U4_2_GanudenuLe_a91c06.pdf",
+            "path": "notes/acc/ethak/unit_04_Sg12_Acc_U4_2_GanudenuLe_a91c06.pdf",
             "size": 1175624,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31211"
           },
           {
             "title": "4.6 වෙළෙඳ භාණ්ඩ ණයට විකිණීම (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_46.pdf",
+            "path": "notes/acc/ethak/unit_04_46.pdf",
             "size": 561796,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31206"
           },
           {
             "title": "4.5.8 මුලාශ්‍ර ලේඛන - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_SAL_Acc_U4.5.8_Source_Documents.pdf",
+            "path": "notes/acc/ethak/unit_04_SAL_Acc_U4.5.8_Source_Documents.pdf",
             "size": 482176,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31204"
           },
           {
             "title": "4.8 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_account_4.8_lo.pdf",
+            "path": "notes/acc/ethak/unit_04_account_4.8_lo.pdf",
             "size": 112598,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31212"
           },
           {
             "title": "4.10 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_account_4.10_lo.pdf",
+            "path": "notes/acc/ethak/unit_04_account_4.10_lo.pdf",
             "size": 112686,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31219"
           },
           {
             "title": "4.5.5 මුලාශ්‍ර ලේඛන - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_SAL_Acc_U4.5.5_Source_Documents.pdf",
+            "path": "notes/acc/ethak/unit_04_SAL_Acc_U4.5.5_Source_Documents.pdf",
             "size": 520313,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31202"
           },
           {
             "title": "4.8 පාලන ගිණුම් (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_12_Acc_4.8ok.pdf",
+            "path": "notes/acc/ethak/unit_04_12_Acc_4.8ok.pdf",
             "size": 561442,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31213"
           },
           {
             "title": "4.9 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_account_4.9_lo.pdf",
+            "path": "notes/acc/ethak/unit_04_account_4.9_lo.pdf",
             "size": 103732,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31216"
           },
           {
             "title": "ගණුදෙනු ලෙජරයට පිටපත් කිරීම - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_04_Sg12_Acc_U4_Transaction_QA.pdf",
+            "path": "notes/acc/ethak/unit_04_Sg12_Acc_U4_Transaction_QA.pdf",
             "size": 2375031,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31210"
           },
           {
             "title": "නිපුණතාව 4: ප්‍රභව ලේඛන, මූලික සටහන් පොත් සහ ලෙජරය - ව්‍යුහගත ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_4_3_2.pdf",
+            "path": "notes/acc/ethak/unit_01_4_3_2.pdf",
             "size": 649325,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31375"
           },
           {
             "title": "නිපුණතාව 4: ප්‍රභව ලේඛන, මූලික සටහන් පොත් සහ ලෙජරය - බහුවරණ ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_4_3.pdf",
+            "path": "notes/acc/ethak/unit_01_4_3.pdf",
             "size": 684286,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31373"
           },
           {
             "title": "නිපුණතාව 4: ප්‍රභව ලේඛන, මූලික සටහන් පොත් සහ ලෙජරය - බහුවරණ පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_4_3_1.pdf",
+            "path": "notes/acc/ethak/unit_01_4_3_1.pdf",
             "size": 621588,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31374"
           },
           {
             "title": "නිපුණතාව 4: ප්‍රභව ලේඛන, මූලික සටහන් පොත් සහ ලෙජරය - ව්‍යුහගත පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_4_2.pdf",
+            "path": "notes/acc/ethak/unit_01_4_2.pdf",
             "size": 750216,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31376"
@@ -1998,7 +1998,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-05",
         "title": "ගිණුම්කරණ සංකල්ප සහ ප්‍රමිති රාමුව",
         "englishTitle": "Accounting Concepts & Qualitative Characteristics",
-        "guidePath": "notes/accounting/master-guides/unit-05.md",
+        "guidePath": "notes/acc/mg/unit-05.md",
         "videoCount": 7,
         "videos": [
           {
@@ -2041,123 +2041,123 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "ගිණුම්කරණ සංකල්ප - Mind Map කෙටි සටහන",
-            "path": "notes/accounting/short-notes/accounting-concepts-mindmap.pdf",
+            "path": "notes/acc/short/accounting-concepts-mindmap.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "accounting-unit-05-accounting-concepts.pdf",
-            "path": "notes/accounting/lesson-notes/unit-05-accounting-concepts/accounting_unit_05_accounting_concepts.pdf",
+            "path": "notes/acc/notes/u05/accounting_unit_05_accounting_concepts.pdf",
             "size": 10987839
           },
           {
             "title": "5.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.1_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.1_lo.pdf",
             "size": 102637,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31222"
           },
           {
             "title": "5.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.3_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.3_lo.pdf",
             "size": 102031,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31224"
           },
           {
             "title": "5.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.2_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.2_lo.pdf",
             "size": 108236,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31223"
           },
           {
             "title": "5.5 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.5_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.5_lo.pdf",
             "size": 100598,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31226"
           },
           {
             "title": "5.6 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.6_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.6_lo.pdf",
             "size": 100398,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31227"
           },
           {
             "title": "5.7 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.7_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.7_lo.pdf",
             "size": 102624,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31228"
           },
           {
             "title": "5.8 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.8_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.8_lo.pdf",
             "size": 100961,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31229"
           },
           {
             "title": "5.12 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.12_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.12_lo.pdf",
             "size": 105834,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31233"
           },
           {
             "title": "5.13 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.13_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.13_lo.pdf",
             "size": 100808,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31234"
           },
           {
             "title": "5.11 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.11_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.11_lo.pdf",
             "size": 100037,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31232"
           },
           {
             "title": "5.10 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.10_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.10_lo.pdf",
             "size": 101236,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31231"
           },
           {
             "title": "5.9 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.9_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.9_lo.pdf",
             "size": 105493,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31230"
           },
           {
             "title": "5.14 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.14_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.14_lo.pdf",
             "size": 99872,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31235"
           },
           {
             "title": "5.4 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_05_account_5.4_lo.pdf",
+            "path": "notes/acc/ethak/unit_05_account_5.4_lo.pdf",
             "size": 104313,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31225"
           },
           {
             "title": "නිපුණතාව 5: ගිණුම්කරණ සංකල්ප සහ ප්‍රමිති රාමුව - බහුවරණ ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_5_1.pdf",
+            "path": "notes/acc/ethak/unit_01_5_1.pdf",
             "size": 648575,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31377"
           },
           {
             "title": "නිපුණතාව 5: ගිණුම්කරණ සංකල්ප සහ ප්‍රමිති රාමුව - බහුවරණ පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_5_1_1.pdf",
+            "path": "notes/acc/ethak/unit_01_5_1_1.pdf",
             "size": 619759,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31378"
@@ -2229,7 +2229,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-06",
         "title": "කේවල ස්වාමි ව්‍යාපාරයක මූල්‍ය ප්‍රකාශන",
         "englishTitle": "Financial Statements of Sole Proprietorships",
-        "guidePath": "notes/accounting/master-guides/unit-06.md",
+        "guidePath": "notes/acc/mg/unit-06.md",
         "videoCount": 28,
         "videos": [
           {
@@ -2377,33 +2377,33 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "accounting-unit-06-sole-proprietorships.pdf",
-            "path": "notes/accounting/lesson-notes/unit-06-sole-proprietorships/accounting_unit_06_sole_proprietorships.pdf",
+            "path": "notes/acc/notes/u06/accounting_unit_06_sole_proprietorships.pdf",
             "size": 64068963
           },
           {
             "title": "නිපුණතාව 6: කේවල ස්වාමි ව්‍යාපාරයක මූල්‍ය ප්‍රකාශන - බහුවරණ ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_6_1.pdf",
+            "path": "notes/acc/ethak/unit_01_6_1.pdf",
             "size": 768893,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31379"
           },
           {
             "title": "නිපුණතාව 6: කේවල ස්වාමි ව්‍යාපාරයක මූල්‍ය ප්‍රකාශන - ව්‍යුහගත ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_6_1_1.pdf",
+            "path": "notes/acc/ethak/unit_01_6_1_1.pdf",
             "size": 701051,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31381"
           },
           {
             "title": "නිපුණතාව 6: කේවල ස්වාමි ව්‍යාපාරයක මූල්‍ය ප්‍රකාශන - ව්‍යුහගත පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_6_1_2.pdf",
+            "path": "notes/acc/ethak/unit_01_6_1_2.pdf",
             "size": 807144,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31382"
           },
           {
             "title": "නිපුණතාව 6: කේවල ස්වාමි ව්‍යාපාරයක මූල්‍ය ප්‍රකාශන - බහුවරණ පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_6_2.pdf",
+            "path": "notes/acc/ethak/unit_01_6_2.pdf",
             "size": 632145,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31380"
@@ -2433,7 +2433,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-07",
         "title": "නිෂ්පාදන ගිණුම් සහ පිරිවැය ප්‍රකාශන",
         "englishTitle": "Manufacturing Accounts & Cost Statements",
-        "guidePath": "notes/accounting/master-guides/unit-07.md",
+        "guidePath": "notes/acc/mg/unit-07.md",
         "videoCount": 14,
         "videos": [
           {
@@ -2511,38 +2511,38 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "al-accounting-english-lesson-07-manufacturing-accounts.pdf",
-            "path": "notes/accounting/lesson-notes/english-medium/al_accounting_english_lesson_07__89f521.pdf",
+            "path": "notes/acc/notes/en/al_accounting_english_lesson_07__89f521.pdf",
             "size": 13381412
           },
           {
             "title": "accounting-unit-07-manufacturing-cost-statements.pdf",
-            "path": "notes/accounting/lesson-notes/unit-07-manufacturing-cost-statements/accounting_unit_07_manufacturing_d6e089.pdf",
+            "path": "notes/acc/notes/u07/accounting_unit_07_manufacturing_d6e089.pdf",
             "size": 22986731
           },
           {
             "title": "නිපුණතාව 7: නිෂ්පාදන ගිණුම් සහ පිරිවැය ප්‍රකාශන - බහුවරණ පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_7_3_1.pdf",
+            "path": "notes/acc/ethak/unit_01_7_3_1.pdf",
             "size": 587791,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31384"
           },
           {
             "title": "නිපුණතාව 7: නිෂ්පාදන ගිණුම් සහ පිරිවැය ප්‍රකාශන - බහුවරණ ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_7_3.pdf",
+            "path": "notes/acc/ethak/unit_01_7_3.pdf",
             "size": 671675,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31383"
           },
           {
             "title": "නිපුණතාව 7: නිෂ්පාදන ගිණුම් සහ පිරිවැය ප්‍රකාශන - ව්‍යුහගත ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_7_1.pdf",
+            "path": "notes/acc/ethak/unit_01_7_1.pdf",
             "size": 661486,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31385"
           },
           {
             "title": "නිපුණතාව 7: නිෂ්පාදන ගිණුම් සහ පිරිවැය ප්‍රකාශන - ව්‍යුහගත පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_7_1_1.pdf",
+            "path": "notes/acc/ethak/unit_01_7_1_1.pdf",
             "size": 682438,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31386"
@@ -2572,7 +2572,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-08",
         "title": "ලාභ අරමුණු කර නොගත් සංවිධාන",
         "englishTitle": "Non-Profit Organizations & Accounts",
-        "guidePath": "notes/accounting/master-guides/unit-08.md",
+        "guidePath": "notes/acc/mg/unit-08.md",
         "videoCount": 24,
         "videos": [
           {
@@ -2700,26 +2700,26 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "accounting-unit-08-incomplete-records.pdf",
-            "path": "notes/accounting/lesson-notes/unit-08-incomplete-records/accounting_unit_08_incomplete_records.pdf",
+            "path": "notes/acc/notes/u08/accounting_unit_08_incomplete_records.pdf",
             "size": 16700164
           },
           {
             "title": "ලාභ අරමුණු කර නොගත් සංවිධානයක මුල්‍ය ප්‍රකාශන පිලියෙල කිරීම (ගැටළු) (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_08_5_6.pdf",
+            "path": "notes/acc/ethak/unit_08_5_6.pdf",
             "size": 293413,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31250"
           },
           {
             "title": "නිපුණතාව 8: ලාභ අරමුණු කර නොගත් සංවිධාන - ව්‍යුහගත පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_8_1_1.pdf",
+            "path": "notes/acc/ethak/unit_01_8_1_1.pdf",
             "size": 785002,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31388"
           },
           {
             "title": "නිපුණතාව 8: ලාභ අරමුණු කර නොගත් සංවිධාන - ව්‍යුහගත ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_8_1.pdf",
+            "path": "notes/acc/ethak/unit_01_8_1.pdf",
             "size": 606814,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31387"
@@ -2766,7 +2766,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-09",
         "title": "අසම්පූර්ණ වාර්තා ගිණුම්කරණය",
         "englishTitle": "Accounting for Incomplete Records",
-        "guidePath": "notes/accounting/master-guides/unit-09.md",
+        "guidePath": "notes/acc/mg/unit-09.md",
         "videoCount": 10,
         "videos": [
           {
@@ -2824,19 +2824,19 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "al-accounting-english-lesson-09-incomplete-records.pdf",
-            "path": "notes/accounting/lesson-notes/english-medium/al_accounting_english_lesson_09__ea8eed.pdf",
+            "path": "notes/acc/notes/en/al_accounting_english_lesson_09__ea8eed.pdf",
             "size": 13746422
           },
           {
             "title": "නිපුණතාව 9: අසම්පූර්ණ වාර්තා ගිණුම්කරණය - බහුවරණ පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_9_1_1.pdf",
+            "path": "notes/acc/ethak/unit_01_9_1_1.pdf",
             "size": 592666,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31390"
           },
           {
             "title": "නිපුණතාව 9: අසම්පූර්ණ වාර්තා ගිණුම්කරණය - බහුවරණ ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_9_1.pdf",
+            "path": "notes/acc/ethak/unit_01_9_1.pdf",
             "size": 711659,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31389"
@@ -2851,7 +2851,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-10",
         "title": "හවුල් ව්‍යාපාර ගිණුම්කරණය",
         "englishTitle": "Partnership Accounting & Financial Statements",
-        "guidePath": "notes/accounting/master-guides/unit-10.md",
+        "guidePath": "notes/acc/mg/unit-10.md",
         "videoCount": 44,
         "videos": [
           {
@@ -3079,40 +3079,40 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "al-accounting-english-lesson-10-partnerships.pdf",
-            "path": "notes/accounting/lesson-notes/english-medium/al_accounting_english_lesson_10__6090ef.pdf",
+            "path": "notes/acc/notes/en/al_accounting_english_lesson_10__6090ef.pdf",
             "size": 24617542
           },
           {
             "title": "ඒකක පරීක්ෂණය - හවුල් ව්‍යාපාර - නාලන්දා විද්‍යාලය කොළඹ 10 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_10_SG12_Acc_UP_U1_2020_Nalanda_college.pdf",
+            "path": "notes/acc/ethak/unit_10_SG12_Acc_UP_U1_2020_Nalanda_college.pdf",
             "size": 1021045,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31260"
           },
           {
             "title": "හවුල් ව්‍යාපාර ව්‍යුහගත ප්‍රශ්න පත්‍රය (Structured Questions)",
-            "path": "notes/accounting/ethaksalawa/unit_01_10.pdf",
+            "path": "notes/acc/ethak/unit_01_10.pdf",
             "size": 988162,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31393"
           },
           {
             "title": "හවුල් ව්‍යාපාර බහුවරණ පිළිතුරු පත්‍රය (MCQ Answers Scheme)",
-            "path": "notes/accounting/ethaksalawa/unit_01_10_1.pdf",
+            "path": "notes/acc/ethak/unit_01_10_1.pdf",
             "size": 591645,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31392"
           },
           {
             "title": "හවුල් ව්‍යාපාර බහුවරණ ප්‍රශ්න පත්‍රය (MCQ Exam Paper)",
-            "path": "notes/accounting/ethaksalawa/unit_01_10_2.pdf",
+            "path": "notes/acc/ethak/unit_01_10_2.pdf",
             "size": 650741,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31391"
           },
           {
             "title": "හවුල් ව්‍යාපාර ව්‍යුහගත පිළිතුරු පත්‍රය (Structured Answers)",
-            "path": "notes/accounting/ethaksalawa/unit_01_10_3.pdf",
+            "path": "notes/acc/ethak/unit_01_10_3.pdf",
             "size": 1279401,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31394"
@@ -3132,7 +3132,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-11",
         "title": "ශ්‍රී ලංකා ගිණුම්කරණ ප්‍රමිත (LKAS / SLFRS)",
         "englishTitle": "Sri Lanka Accounting Standards (LKAS)",
-        "guidePath": "notes/accounting/master-guides/unit-11.md",
+        "guidePath": "notes/acc/mg/unit-11.md",
         "videoCount": 57,
         "videos": [
           {
@@ -3425,28 +3425,28 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "ක්‍රියාකාරකම 01 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_11_12-3.pdf",
+            "path": "notes/acc/ethak/unit_11_12-3.pdf",
             "size": 335379,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31271"
           },
           {
             "title": "ගිණුම්කරණ ප්‍රමිත භාවිත (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_11_module_11.pdf",
+            "path": "notes/acc/ethak/unit_11_module_11.pdf",
             "size": 962954,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31276"
           },
           {
             "title": "නිපුණතාව 11: ශ්‍රී ලංකා ගිණුම්කරණ ප්‍රමිත (LKAS / SLFRS) - බහුවරණ ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_11.pdf",
+            "path": "notes/acc/ethak/unit_01_11.pdf",
             "size": 688059,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31395"
           },
           {
             "title": "නිපුණතාව 11: ශ්‍රී ලංකා ගිණුම්කරණ ප්‍රමිත (LKAS / SLFRS) - බහුවරණ පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_11_1.pdf",
+            "path": "notes/acc/ethak/unit_01_11_1.pdf",
             "size": 603617,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31396"
@@ -3605,7 +3605,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-12",
         "title": "සීමාසහිත සමාගම් ගිණුම්කරණය",
         "englishTitle": "Limited Liability Companies Accounting",
-        "guidePath": "notes/accounting/master-guides/unit-12.md",
+        "guidePath": "notes/acc/mg/unit-12.md",
         "videoCount": 54,
         "videos": [
           {
@@ -3883,112 +3883,112 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "ක්‍රියාකාරකම 12.4.1.1 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12.pdf",
+            "path": "notes/acc/ethak/unit_12.pdf",
             "size": 317810,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31281"
           },
           {
             "title": "12.4.1.2 අභ්‍යාසය 01 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12_12_4_1_2_1.pdf",
+            "path": "notes/acc/ethak/unit_12_12_4_1_2_1.pdf",
             "size": 561268,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31283"
           },
           {
             "title": "12.4.1.5 අභ්‍යාස (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12_12.4.1.4.pdf",
+            "path": "notes/acc/ethak/unit_12_12.4.1.4.pdf",
             "size": 804234,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31288"
           },
           {
             "title": "12.4.1.3 හිමිකම් වෙනස්වීමේ ප්‍රකාශනය (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12_2.pdf",
+            "path": "notes/acc/ethak/unit_12_2.pdf",
             "size": 529601,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31285"
           },
           {
             "title": "12.4.1.4 ප්‍රත්‍යාගණනය (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12_1.pdf",
+            "path": "notes/acc/ethak/unit_12_1.pdf",
             "size": 685958,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31286"
           },
           {
             "title": "12.4.1.6 අභ්‍යාස අංක 03 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12_12_4_1_5_3_3.pdf",
+            "path": "notes/acc/ethak/unit_12_12_4_1_5_3_3.pdf",
             "size": 750544,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31291"
           },
           {
             "title": "නිපුණතා 1 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12_module_12_(LKAS7).pdf",
+            "path": "notes/acc/ethak/unit_12_module_12_(LKAS7).pdf",
             "size": 282402,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31293"
           },
           {
             "title": "12.4.1.2 අභ්‍යාසය 02 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12_12_4_1_2_2.pdf",
+            "path": "notes/acc/ethak/unit_12_12_4_1_2_2.pdf",
             "size": 758217,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31284"
           },
           {
             "title": "නිපුණතා 12 පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12_12.pdf",
+            "path": "notes/acc/ethak/unit_12_12.pdf",
             "size": 553116,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31295"
           },
           {
             "title": "12.4.1.6 අභ්‍යාස අංක 02 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12_12_4_1_5_2_2.pdf",
+            "path": "notes/acc/ethak/unit_12_12_4_1_5_2_2.pdf",
             "size": 885351,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31290"
           },
           {
             "title": "නිපුණතා 2 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12_module_12.pdf",
+            "path": "notes/acc/ethak/unit_12_module_12.pdf",
             "size": 640062,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31294"
           },
           {
             "title": "12.4.1.6 අභ්‍යාස අංක 01 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_12_12_4_1_5_1_1.pdf",
+            "path": "notes/acc/ethak/unit_12_12_4_1_5_1_1.pdf",
             "size": 747881,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31289"
           },
           {
             "title": "නිපුණතාව 12: සීමාසහිත සමාගම් ගිණුම්කරණය - බහුවරණ ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_12.pdf",
+            "path": "notes/acc/ethak/unit_01_12.pdf",
             "size": 770161,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31397"
           },
           {
             "title": "නිපුණතාව 12: සීමාසහිත සමාගම් ගිණුම්කරණය - බහුවරණ පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_12_1.pdf",
+            "path": "notes/acc/ethak/unit_01_12_1.pdf",
             "size": 589660,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31398"
           },
           {
             "title": "නිපුණතාව 12: සීමාසහිත සමාගම් ගිණුම්කරණය - ව්‍යුහගත පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_12_2.pdf",
+            "path": "notes/acc/ethak/unit_01_12_2.pdf",
             "size": 1216393,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31400"
           },
           {
             "title": "නිපුණතාව 12: සීමාසහිත සමාගම් ගිණුම්කරණය - ව්‍යුහගත ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_12_3.pdf",
+            "path": "notes/acc/ethak/unit_01_12_3.pdf",
             "size": 1155310,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31399"
@@ -4131,7 +4131,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-13",
         "title": "මූල්‍ය ප්‍රකාශන විශ්ලේෂණය සහ අනුපාත",
         "englishTitle": "Financial Statement Analysis & Ratios",
-        "guidePath": "notes/accounting/master-guides/unit-13.md",
+        "guidePath": "notes/acc/mg/unit-13.md",
         "videoCount": 10,
         "videos": [
           {
@@ -4189,14 +4189,14 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "නිපුණතාව 13: මූල්‍ය ප්‍රකාශන විශ්ලේෂණය සහ අනුපාත - බහුවරණ පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_13_1.pdf",
+            "path": "notes/acc/ethak/unit_01_13_1.pdf",
             "size": 589501,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31402"
           },
           {
             "title": "නිපුණතාව 13: මූල්‍ය ප්‍රකාශන විශ්ලේෂණය සහ අනුපාත - බහුවරණ ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_13.pdf",
+            "path": "notes/acc/ethak/unit_01_13.pdf",
             "size": 688487,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31401"
@@ -4211,7 +4211,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-14",
         "title": "කළමනාකරණ ගිණුම්කරණයේ මූලික සංකල්ප",
         "englishTitle": "Management Accounting Fundamentals",
-        "guidePath": "notes/accounting/master-guides/unit-14.md",
+        "guidePath": "notes/acc/mg/unit-14.md",
         "videoCount": 41,
         "videos": [
           {
@@ -4424,28 +4424,28 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "14. කළමනාකරණ ගිණුම්කරණය (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_14_14.pdf",
+            "path": "notes/acc/ethak/unit_14_14.pdf",
             "size": 649871,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31299"
           },
           {
             "title": "අනුපාත (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_14_13.pdf",
+            "path": "notes/acc/ethak/unit_14_13.pdf",
             "size": 7144359,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31298"
           },
           {
             "title": "නිපුණතාව 14, 15: කළමනාකරණ සහ CVP ව්‍යුහගත පිළිතුරු පත්‍රය",
-            "path": "notes/accounting/ethaksalawa/unit_01_14_15_1_1.pdf",
+            "path": "notes/acc/ethak/unit_01_14_15_1_1.pdf",
             "size": 1458927,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31404"
           },
           {
             "title": "නිපුණතාව 14, 15: කළමනාකරණ සහ CVP ව්‍යුහගත ප්‍රශ්න පත්‍රය",
-            "path": "notes/accounting/ethaksalawa/unit_01_14_15_1.pdf",
+            "path": "notes/acc/ethak/unit_01_14_15_1.pdf",
             "size": 1032970,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31403"
@@ -4469,7 +4469,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-15",
         "title": "පිරිවැය-පරිමා-ලාභ (CVP) සහ සමච්ඡේද විශ්ලේෂණය",
         "englishTitle": "Cost-Volume-Profit (CVP) & Break-Even Analysis",
-        "guidePath": "notes/accounting/master-guides/unit-15.md",
+        "guidePath": "notes/acc/mg/unit-15.md",
         "videoCount": 17,
         "videos": [
           {
@@ -4562,27 +4562,27 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "සමච්ඡේද විශ්ලේෂණය (BEP & CVP) - Mind Map කෙටි සටහන",
-            "path": "notes/accounting/short-notes/bep-breakeven-analysis-mindmap.pdf",
+            "path": "notes/acc/short/bep-breakeven-analysis-mindmap.pdf",
             "size": 500000,
             "isShortNote": true
           },
           {
             "title": "ආන්තික පිරිවැය (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_15_15_final_1.pdf",
+            "path": "notes/acc/ethak/unit_15_15_final_1.pdf",
             "size": 988444,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31301"
           },
           {
             "title": "නිපුණතාව 14, 15: කළමනාකරණ සහ CVP ව්‍යුහගත පිළිතුරු පත්‍රය",
-            "path": "notes/accounting/ethaksalawa/unit_01_14_15_1_1.pdf",
+            "path": "notes/acc/ethak/unit_01_14_15_1_1.pdf",
             "size": 1458927,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31404"
           },
           {
             "title": "නිපුණතාව 14, 15: කළමනාකරණ සහ CVP ව්‍යුහගත ප්‍රශ්න පත්‍රය",
-            "path": "notes/accounting/ethaksalawa/unit_01_14_15_1.pdf",
+            "path": "notes/acc/ethak/unit_01_14_15_1.pdf",
             "size": 1032970,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31403"
@@ -4602,7 +4602,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-16",
         "title": "ව්‍යාපාරික තීරණ සඳහා දර්ශකාංක භාවිතය",
         "englishTitle": "Business Performance Indicators & Decisions",
-        "guidePath": "notes/accounting/master-guides/unit-16.md",
+        "guidePath": "notes/acc/mg/unit-16.md",
         "videoCount": 12,
         "videos": [
           {
@@ -4670,28 +4670,28 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "Competency 16 (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_16_Competency_16.pdf",
+            "path": "notes/acc/ethak/unit_16_Competency_16.pdf",
             "size": 96546,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31304"
           },
           {
             "title": "16 ආයෝජන තීරණ (MOE e-Thaksalawa)",
-            "path": "notes/accounting/ethaksalawa/unit_16_16.pdf",
+            "path": "notes/acc/ethak/unit_16_16.pdf",
             "size": 793986,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31303"
           },
           {
             "title": "නිපුණතාව 16: ව්‍යාපාරික තීරණ සඳහා දර්ශකාංක භාවිතය - ව්‍යුහගත ප්‍රශ්න",
-            "path": "notes/accounting/ethaksalawa/unit_01_16_1.pdf",
+            "path": "notes/acc/ethak/unit_01_16_1.pdf",
             "size": 656746,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31405"
           },
           {
             "title": "නිපුණතාව 16: ව්‍යාපාරික තීරණ සඳහා දර්ශකාංක භාවිතය - ව්‍යුහගත පිළිතුරු",
-            "path": "notes/accounting/ethaksalawa/unit_01_16_1_1.pdf",
+            "path": "notes/acc/ethak/unit_01_16_1_1.pdf",
             "size": 665599,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=31406"
@@ -4720,14 +4720,14 @@ export const CURRICULUM_DATA = {
     "gradient": "from-pink-600 to-rose-600",
     "color": "#ec4899",
     "icon": "Briefcase",
-    "resourceGuide": "notes/business-studies/resource-guides/al_business_studies_complete_res_869313.pdf",
+    "resourceGuide": "notes/bs/guides/al_business_studies_complete_res_869313.pdf",
     "units": [
       {
         "unitNumber": 1,
         "unitCode": "unit-01",
         "title": "ව්‍යාපාර පදනම සහ ව්‍යාපාරික පරිසරය",
         "englishTitle": "Business Foundation & Environmental Analysis",
-        "guidePath": "notes/business-studies/master-guides/unit-01.md",
+        "guidePath": "notes/bs/mg/unit-01.md",
         "videoCount": 20,
         "videos": [
           {
@@ -4835,156 +4835,156 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g12-l01-p01-business-foundation-and-its-environment.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/bs_g12_l01_p01_business_foundati_df6fe7.pdf",
+            "path": "notes/bs/notes/g12/l01/bs_g12_l01_p01_business_foundati_df6fe7.pdf",
             "size": 747424
           },
           {
             "title": "bs-g12-l01-p02-business-foundation-and-its-environment.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/bs_g12_l01_p02_business_foundati_19e400.pdf",
+            "path": "notes/bs/notes/g12/l01/bs_g12_l01_p02_business_foundati_19e400.pdf",
             "size": 555507
           },
           {
             "title": "bs-g12-l01-p03-business-foundation-and-its-environment.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/bs_g12_l01_p03_business_foundati_3a6658.pdf",
+            "path": "notes/bs/notes/g12/l01/bs_g12_l01_p03_business_foundati_3a6658.pdf",
             "size": 605408
           },
           {
             "title": "bs-g12-l01-p04-business-foundation-and-its-environment.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/bs_g12_l01_p04_business_foundati_adecd0.pdf",
+            "path": "notes/bs/notes/g12/l01/bs_g12_l01_p04_business_foundati_adecd0.pdf",
             "size": 610528
           },
           {
             "title": "bs-g12-l01-p05-business-foundation-and-its-environment.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/bs_g12_l01_p05_business_foundati_109aa2.pdf",
+            "path": "notes/bs/notes/g12/l01/bs_g12_l01_p05_business_foundati_109aa2.pdf",
             "size": 494962
           },
           {
             "title": "bs-g12-l01-p06-business-foundation-and-its-environment.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/bs_g12_l01_p06_business_foundati_f6b3bc.pdf",
+            "path": "notes/bs/notes/g12/l01/bs_g12_l01_p06_business_foundati_f6b3bc.pdf",
             "size": 686921
           },
           {
             "title": "bs-g12-l01-p07-business-foundation-and-its-environment.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/bs_g12_l01_p07_business_foundati_3b606d.pdf",
+            "path": "notes/bs/notes/g12/l01/bs_g12_l01_p07_business_foundati_3b606d.pdf",
             "size": 557064
           },
           {
             "title": "bs-g12-l01-p08-business-foundation-and-its-environment.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/bs_g12_l01_p08_business_foundati_b6d649.pdf",
+            "path": "notes/bs/notes/g12/l01/bs_g12_l01_p08_business_foundati_b6d649.pdf",
             "size": 445733
           },
           {
             "title": "bs-g12-l01-p09-business-foundation-and-its-environment.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/bs_g12_l01_p09_business_foundati_90db74.pdf",
+            "path": "notes/bs/notes/g12/l01/bs_g12_l01_p09_business_foundati_90db74.pdf",
             "size": 541681
           },
           {
             "title": "comprehensive-theory-part-01.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/comprehensive_theory_part_01.pdf",
+            "path": "notes/bs/notes/g12/l01/comprehensive_theory_part_01.pdf",
             "size": 43876671
           },
           {
             "title": "comprehensive-theory-part-02.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/comprehensive_theory_part_02.pdf",
+            "path": "notes/bs/notes/g12/l01/comprehensive_theory_part_02.pdf",
             "size": 39517186
           },
           {
             "title": "comprehensive-theory-part-03.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-01-foundation/comprehensive_theory_part_03.pdf",
+            "path": "notes/bs/notes/g12/l01/comprehensive_theory_part_03.pdf",
             "size": 63720759
           },
           {
             "title": "unit-01-business-foundation-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-01-business-foundation-short-note.pdf",
+            "path": "notes/bs/short/unit-01-business-foundation-short-note.pdf",
             "size": 145310
           },
           {
             "title": "1.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_business_1.2_lo.pdf",
+            "path": "notes/bs/ethak/unit_01_business_1.2_lo.pdf",
             "size": 115982,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29812"
           },
           {
             "title": "1.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_business_1.3_lo.pdf",
+            "path": "notes/bs/ethak/unit_01_business_1.3_lo.pdf",
             "size": 112183,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29814"
           },
           {
             "title": "1.5 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_business_1.5_lo.pdf",
+            "path": "notes/bs/ethak/unit_01_business_1.5_lo.pdf",
             "size": 113133,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29818"
           },
           {
             "title": "1.4 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_business_1.4_lo.pdf",
+            "path": "notes/bs/ethak/unit_01_business_1.4_lo.pdf",
             "size": 187737,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29816"
           },
           {
             "title": "විෂය නිර්දේශය (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_SAL__BusinessSt_Syll.pdf",
+            "path": "notes/bs/ethak/unit_01_SAL__BusinessSt_Syll.pdf",
             "size": 502407,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29804"
           },
           {
             "title": "1.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_business_1.1_lo.pdf",
+            "path": "notes/bs/ethak/unit_01_business_1.1_lo.pdf",
             "size": 116200,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29808"
           },
           {
             "title": "1.6 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_business_1.6_lo.pdf",
+            "path": "notes/bs/ethak/unit_01_business_1.6_lo.pdf",
             "size": 109612,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29820"
           },
           {
             "title": "ගුරු මාර්ගෝපදේශ සංග්‍රහය (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_SAL_Business_Tim.pdf",
+            "path": "notes/bs/ethak/unit_01_SAL_Business_Tim.pdf",
             "size": 2483519,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29803"
           },
           {
             "title": "1.9 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_business_1.9_lo.pdf",
+            "path": "notes/bs/ethak/unit_01_business_1.9_lo.pdf",
             "size": 109762,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29826"
           },
           {
             "title": "ඒකක පරීක්ෂණය - ව්‍යාපාර පදනම - නාලන්දා විද්‍යාලය කොළඹ 10 (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_SG12_B.St_UP_U1_2020_Nalanda_college.pdf",
+            "path": "notes/bs/ethak/unit_01_SG12_B.St_UP_U1_2020_Nalanda_college.pdf",
             "size": 1017989,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29839"
           },
           {
             "title": "1.8 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_business_1.8_lo.pdf",
+            "path": "notes/bs/ethak/unit_01_business_1.8_lo.pdf",
             "size": 111758,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29824"
           },
           {
             "title": "1.7 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_business_1.7_lo.pdf",
+            "path": "notes/bs/ethak/unit_01_business_1.7_lo.pdf",
             "size": 194331,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29822"
           },
           {
             "title": "1.0 ව්‍යාපාර පදනම හා ව්‍යපාර ක්‍රියාත්මක වන පරිසරය (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_01_12_BS_1.0_(1).pdf",
+            "path": "notes/bs/ethak/unit_01_12_BS_1.0_(1).pdf",
             "size": 3483598,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29840"
@@ -5580,7 +5580,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-02",
         "title": "ව්‍යාපාර සමාජ වගකීම් සහ ආචාරධර්ම",
         "englishTitle": "Social Responsibilities & Ethics in Business",
-        "guidePath": "notes/business-studies/master-guides/unit-02.md",
+        "guidePath": "notes/bs/mg/unit-02.md",
         "videoCount": 12,
         "videos": [
           {
@@ -5648,53 +5648,53 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g12-l02-p01-social-responsibilities-and-ethics.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-02-ethics/bs_g12_l02_p01_social_responsibi_2ed1b1.pdf",
+            "path": "notes/bs/notes/g12/l02/bs_g12_l02_p01_social_responsibi_2ed1b1.pdf",
             "size": 691774
           },
           {
             "title": "bs-g12-l02-p02-social-responsibilities-and-ethics.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-02-ethics/bs_g12_l02_p02_social_responsibi_b49250.pdf",
+            "path": "notes/bs/notes/g12/l02/bs_g12_l02_p02_social_responsibi_b49250.pdf",
             "size": 653760
           },
           {
             "title": "bs-g12-l02-p03-social-responsibilities-and-ethics.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-02-ethics/bs_g12_l02_p03_social_responsibi_668fe8.pdf",
+            "path": "notes/bs/notes/g12/l02/bs_g12_l02_p03_social_responsibi_668fe8.pdf",
             "size": 469547
           },
           {
             "title": "comprehensive-theory.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-02-ethics/comprehensive_theory.pdf",
+            "path": "notes/bs/notes/g12/l02/comprehensive_theory.pdf",
             "size": 40497248
           },
           {
             "title": "unit-02-social-responsibilities-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-02-social-responsibilities-short-note.pdf",
+            "path": "notes/bs/short/unit-02-social-responsibilities-short-note.pdf",
             "size": 305995
           },
           {
             "title": "2.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_02_business_2.2_lo.pdf",
+            "path": "notes/bs/ethak/unit_02_business_2.2_lo.pdf",
             "size": 108115,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29844"
           },
           {
             "title": "2.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_02_business_2.1_lo.pdf",
+            "path": "notes/bs/ethak/unit_02_business_2.1_lo.pdf",
             "size": 190384,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29842"
           },
           {
             "title": "2.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_02_business_2.3_lo.pdf",
+            "path": "notes/bs/ethak/unit_02_business_2.3_lo.pdf",
             "size": 115206,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29846"
           },
           {
             "title": "ව්‍යාපාර පරිසරයට අනුගත වීම සඳහා ව්‍යාපාර,සමාජයීය වගකීම් හා ආචාරධර්ම (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_02_12_BS_2.0.pdf",
+            "path": "notes/bs/ethak/unit_02_12_BS_2.0.pdf",
             "size": 2166297,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29848"
@@ -5766,7 +5766,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-03",
         "title": "රජය සහ ව්‍යාපාරික සම්බන්ධතා",
         "englishTitle": "Government Intervention & Business Relations",
-        "guidePath": "notes/business-studies/master-guides/unit-03.md",
+        "guidePath": "notes/bs/mg/unit-03.md",
         "videoCount": 17,
         "videos": [
           {
@@ -5859,108 +5859,108 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g12-l03-p01-government-and-business.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-03-government-and-business/bs_g12_l03_p01_government_and_business.pdf",
+            "path": "notes/bs/notes/g12/l03/bs_g12_l03_p01_government_and_business.pdf",
             "size": 631279
           },
           {
             "title": "bs-g12-l03-p02-government-and-business.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-03-government-and-business/bs_g12_l03_p02_government_and_business.pdf",
+            "path": "notes/bs/notes/g12/l03/bs_g12_l03_p02_government_and_business.pdf",
             "size": 480989
           },
           {
             "title": "bs-g12-l03-p03-government-and-business.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-03-government-and-business/bs_g12_l03_p03_government_and_business.pdf",
+            "path": "notes/bs/notes/g12/l03/bs_g12_l03_p03_government_and_business.pdf",
             "size": 514765
           },
           {
             "title": "bs-g12-l03-p04-government-and-business.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-03-government-and-business/bs_g12_l03_p04_government_and_business.pdf",
+            "path": "notes/bs/notes/g12/l03/bs_g12_l03_p04_government_and_business.pdf",
             "size": 517569
           },
           {
             "title": "bs-g12-l03-p05-government-and-business.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-03-government-and-business/bs_g12_l03_p05_government_and_business.pdf",
+            "path": "notes/bs/notes/g12/l03/bs_g12_l03_p05_government_and_business.pdf",
             "size": 496314
           },
           {
             "title": "bs-g12-l03-p06-government-and-business.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-03-government-and-business/bs_g12_l03_p06_government_and_business.pdf",
+            "path": "notes/bs/notes/g12/l03/bs_g12_l03_p06_government_and_business.pdf",
             "size": 513236
           },
           {
             "title": "comprehensive-theory-part-01.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-03-government-and-business/comprehensive_theory_part_01.pdf",
+            "path": "notes/bs/notes/g12/l03/comprehensive_theory_part_01.pdf",
             "size": 34518472
           },
           {
             "title": "comprehensive-theory-part-02.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-03-government-and-business/comprehensive_theory_part_02.pdf",
+            "path": "notes/bs/notes/g12/l03/comprehensive_theory_part_02.pdf",
             "size": 42537572
           },
           {
             "title": "unit-03-government-and-business-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-03-government-and-business-short-note.pdf",
+            "path": "notes/bs/short/unit-03-government-and-business-short-note.pdf",
             "size": 228148
           },
           {
             "title": "3.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_03_business_3.1_lo.pdf",
+            "path": "notes/bs/ethak/unit_03_business_3.1_lo.pdf",
             "size": 186458,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29851"
           },
           {
             "title": "3.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_03_business_3.2_lo.pdf",
+            "path": "notes/bs/ethak/unit_03_business_3.2_lo.pdf",
             "size": 111820,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29853"
           },
           {
             "title": "3.5 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_03_business_3.5_lo.pdf",
+            "path": "notes/bs/ethak/unit_03_business_3.5_lo.pdf",
             "size": 112677,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29859"
           },
           {
             "title": "3.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_03_business_3.3_lo.pdf",
+            "path": "notes/bs/ethak/unit_03_business_3.3_lo.pdf",
             "size": 112079,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29855"
           },
           {
             "title": "3.4 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_03_business_3.4_lo.pdf",
+            "path": "notes/bs/ethak/unit_03_business_3.4_lo.pdf",
             "size": 110596,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29857"
           },
           {
             "title": "3.0 රජය සමග සම්බන්ධතා පවත්වා ගනිමින් ව්‍යාපාර කරගෙන යාමේ අවශ්‍යතාව (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_03_Business_St_1.pdf",
+            "path": "notes/bs/ethak/unit_03_Business_St_1.pdf",
             "size": 1859515,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29850"
           },
           {
             "title": "ඒකක පරීක්ෂණය - රජය හා ව්‍යාපාර - නාලන්දා විද්‍යාලය කොළඹ 10 (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_03_SG12_B.St_UP_U3_2020_Nalanda_college.pdf",
+            "path": "notes/bs/ethak/unit_03_SG12_B.St_UP_U3_2020_Nalanda_college.pdf",
             "size": 1029460,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29863"
           },
           {
             "title": "3.6 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_03_business_3.6_lo.pdf",
+            "path": "notes/bs/ethak/unit_03_business_3.6_lo.pdf",
             "size": 112646,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29861"
           },
           {
             "title": "ක්‍රියාකාරකම 01 (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_03_Doc1.pdf",
+            "path": "notes/bs/ethak/unit_03_Doc1.pdf",
             "size": 308592,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29864"
@@ -6091,7 +6091,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-04",
         "title": "ව්‍යාපාර සංවිධාන ආකෘති",
         "englishTitle": "Types & Structures of Business Organizations",
-        "guidePath": "notes/business-studies/master-guides/unit-04.md",
+        "guidePath": "notes/bs/mg/unit-04.md",
         "videoCount": 40,
         "videos": [
           {
@@ -6299,89 +6299,89 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g12-l04-p01-business-organizations.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-04-business-organizations/bs_g12_l04_p01_business_organizations.pdf",
+            "path": "notes/bs/notes/g12/l04/bs_g12_l04_p01_business_organizations.pdf",
             "size": 612259
           },
           {
             "title": "bs-g12-l04-p02-business-organizations.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-04-business-organizations/bs_g12_l04_p02_business_organizations.pdf",
+            "path": "notes/bs/notes/g12/l04/bs_g12_l04_p02_business_organizations.pdf",
             "size": 500198
           },
           {
             "title": "bs-g12-l04-p03-business-organizations.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-04-business-organizations/bs_g12_l04_p03_business_organizations.pdf",
+            "path": "notes/bs/notes/g12/l04/bs_g12_l04_p03_business_organizations.pdf",
             "size": 542744
           },
           {
             "title": "bs-g12-l04-p04-business-organizations.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-04-business-organizations/bs_g12_l04_p04_business_organizations.pdf",
+            "path": "notes/bs/notes/g12/l04/bs_g12_l04_p04_business_organizations.pdf",
             "size": 610686
           },
           {
             "title": "bs-g12-l04-p05-business-organizations.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-04-business-organizations/bs_g12_l04_p05_business_organizations.pdf",
+            "path": "notes/bs/notes/g12/l04/bs_g12_l04_p05_business_organizations.pdf",
             "size": 534917
           },
           {
             "title": "bs-g12-l04-p06-business-organizations.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-04-business-organizations/bs_g12_l04_p06_business_organizations.pdf",
+            "path": "notes/bs/notes/g12/l04/bs_g12_l04_p06_business_organizations.pdf",
             "size": 635842
           },
           {
             "title": "bs-g12-l04-p07-business-organizations.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-04-business-organizations/bs_g12_l04_p07_business_organizations.pdf",
+            "path": "notes/bs/notes/g12/l04/bs_g12_l04_p07_business_organizations.pdf",
             "size": 485576
           },
           {
             "title": "unit-04-business-organizations-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-04-business-organizations-short-note.pdf",
+            "path": "notes/bs/short/unit-04-business-organizations-short-note.pdf",
             "size": 352483
           },
           {
             "title": "4.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_04_business_4.1_lo.pdf",
+            "path": "notes/bs/ethak/unit_04_business_4.1_lo.pdf",
             "size": 111429,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29866"
           },
           {
             "title": "4.5 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_04_business_4.5_lo.pdf",
+            "path": "notes/bs/ethak/unit_04_business_4.5_lo.pdf",
             "size": 112137,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29874"
           },
           {
             "title": "4.4 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_04_business_4.4_lo.pdf",
+            "path": "notes/bs/ethak/unit_04_business_4.4_lo.pdf",
             "size": 116252,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29872"
           },
           {
             "title": "4.6 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_04_business_4.6_lo.pdf",
+            "path": "notes/bs/ethak/unit_04_business_4.6_lo.pdf",
             "size": 113919,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29876"
           },
           {
             "title": "4.7 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_04_business_4.7_lo.pdf",
+            "path": "notes/bs/ethak/unit_04_business_4.7_lo.pdf",
             "size": 109720,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29879"
           },
           {
             "title": "4.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_04_business_4.3_lo.pdf",
+            "path": "notes/bs/ethak/unit_04_business_4.3_lo.pdf",
             "size": 116876,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29870"
           },
           {
             "title": "4.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_04_business_4.2_lo.pdf",
+            "path": "notes/bs/ethak/unit_04_business_4.2_lo.pdf",
             "size": 111096,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29868"
@@ -6543,7 +6543,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-05",
         "title": "ව්‍යවසායකත්වය සහ නවෝත්පාදනය",
         "englishTitle": "Entrepreneurship & Innovation in Business",
-        "guidePath": "notes/business-studies/master-guides/unit-05.md",
+        "guidePath": "notes/bs/mg/unit-05.md",
         "videoCount": 13,
         "videos": [
           {
@@ -6616,22 +6616,22 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g12-l05-p01-entrepreneurship.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-05-entrepreneurship/bs_g12_l05_p01_entrepreneurship.pdf",
+            "path": "notes/bs/notes/g12/l05/bs_g12_l05_p01_entrepreneurship.pdf",
             "size": 792216
           },
           {
             "title": "bs-g12-l05-p02-entrepreneurship.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-05-entrepreneurship/bs_g12_l05_p02_entrepreneurship.pdf",
+            "path": "notes/bs/notes/g12/l05/bs_g12_l05_p02_entrepreneurship.pdf",
             "size": 473908
           },
           {
             "title": "bs-g12-l05-p03-entrepreneurship.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-05-entrepreneurship/bs_g12_l05_p03_entrepreneurship.pdf",
+            "path": "notes/bs/notes/g12/l05/bs_g12_l05_p03_entrepreneurship.pdf",
             "size": 509821
           },
           {
             "title": "unit-05-entrepreneurship-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-05-entrepreneurship-short-note.pdf",
+            "path": "notes/bs/short/unit-05-entrepreneurship-short-note.pdf",
             "size": 219664
           }
         ],
@@ -6672,7 +6672,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-06",
         "title": "සුළු හා මධ්‍ය පරිමාණ ව්‍යාපාර (SMEs)",
         "englishTitle": "Small & Medium Scale Enterprises (SMEs)",
-        "guidePath": "notes/business-studies/master-guides/unit-06.md",
+        "guidePath": "notes/bs/mg/unit-06.md",
         "videoCount": 10,
         "videos": [
           {
@@ -6730,17 +6730,17 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g12-l06-p01-small-and-medium-scale-businesses.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-06-sme/bs_g12_l06_p01_small_and_medium__fa48c4.pdf",
+            "path": "notes/bs/notes/g12/l06/bs_g12_l06_p01_small_and_medium__fa48c4.pdf",
             "size": 686507
           },
           {
             "title": "bs-g12-l06-p02-small-and-medium-scale-businesses.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-06-sme/bs_g12_l06_p02_small_and_medium__205d6f.pdf",
+            "path": "notes/bs/notes/g12/l06/bs_g12_l06_p02_small_and_medium__205d6f.pdf",
             "size": 513836
           },
           {
             "title": "unit-06-small-and-medium-businesses-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-06-small-and-medium-businesses-short-note.pdf",
+            "path": "notes/bs/short/unit-06-small-and-medium-businesses-short-note.pdf",
             "size": 222434
           }
         ],
@@ -6781,7 +6781,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-07",
         "title": "මුදල් සහ මූල්‍ය ආයතන පද්ධතිය",
         "englishTitle": "Money & Financial Institutions System",
-        "guidePath": "notes/business-studies/master-guides/unit-07.md",
+        "guidePath": "notes/bs/mg/unit-07.md",
         "videoCount": 46,
         "videos": [
           {
@@ -7019,75 +7019,75 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g12-l07-p01-money-and-financial-institutions.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-07-money/bs_g12_l07_p01_money_and_financi_2cae2a.pdf",
+            "path": "notes/bs/notes/g12/l07/bs_g12_l07_p01_money_and_financi_2cae2a.pdf",
             "size": 742148
           },
           {
             "title": "bs-g12-l07-p02-money-and-financial-institutions.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-07-money/bs_g12_l07_p02_money_and_financi_0df46a.pdf",
+            "path": "notes/bs/notes/g12/l07/bs_g12_l07_p02_money_and_financi_0df46a.pdf",
             "size": 692618
           },
           {
             "title": "bs-g12-l07-p03-money-and-financial-institutions.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-07-money/bs_g12_l07_p03_money_and_financi_418eae.pdf",
+            "path": "notes/bs/notes/g12/l07/bs_g12_l07_p03_money_and_financi_418eae.pdf",
             "size": 510318
           },
           {
             "title": "bs-g12-l07-p04-money-and-financial-institutions.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-07-money/bs_g12_l07_p04_money_and_financi_d5f3f6.pdf",
+            "path": "notes/bs/notes/g12/l07/bs_g12_l07_p04_money_and_financi_d5f3f6.pdf",
             "size": 513386
           },
           {
             "title": "bs-g12-l07-p05-money-and-financial-institutions.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-07-money/bs_g12_l07_p05_money_and_financi_c3b3b4.pdf",
+            "path": "notes/bs/notes/g12/l07/bs_g12_l07_p05_money_and_financi_c3b3b4.pdf",
             "size": 517764
           },
           {
             "title": "bs-g12-l07-p06-money-and-financial-institutions.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-07-money/bs_g12_l07_p06_money_and_financi_f4a8cf.pdf",
+            "path": "notes/bs/notes/g12/l07/bs_g12_l07_p06_money_and_financi_f4a8cf.pdf",
             "size": 738329
           },
           {
             "title": "bs-g12-l07-p07-money-and-financial-institutions.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-07-money/bs_g12_l07_p07_money_and_financi_92c213.pdf",
+            "path": "notes/bs/notes/g12/l07/bs_g12_l07_p07_money_and_financi_92c213.pdf",
             "size": 605886
           },
           {
             "title": "unit-07-money-and-financial-institutions-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-07-money-and-financial-institutions-short-note.pdf",
+            "path": "notes/bs/short/unit-07-money-and-financial-institutions-short-note.pdf",
             "size": 425306
           },
           {
             "title": "ගණුදෙනු පහසු කර ගැනීම සඳහා මුදල් භාවිතයේ වැදගත්කම (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_07_SAL_BS_12_7.1_mudal.pdf",
+            "path": "notes/bs/ethak/unit_07_SAL_BS_12_7.1_mudal.pdf",
             "size": 2476159,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29897"
           },
           {
             "title": "චෙක්පත් භාවිතයෙන් ගනුදෙනු පහසු කර ගත හැකි ආකාරය 2 (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_07_SAL_BS_7_6_4_chekpath_rekanaya.pdf",
+            "path": "notes/bs/ethak/unit_07_SAL_BS_7_6_4_chekpath_rekanaya.pdf",
             "size": 1220242,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29911"
           },
           {
             "title": "වාණිජ බැංකු සපයන සේවා ව්‍යාපාර වල ක්‍රියාකාරීත්වයට ඇතිකරන බලපෑම (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_07_SAL_BS_12_7.5_Vanija_Bank.pdf",
+            "path": "notes/bs/ethak/unit_07_SAL_BS_12_7.5_Vanija_Bank.pdf",
             "size": 1648050,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29908"
           },
           {
             "title": "ශ්‍රි ලංකා මහ බැංකුවේ කාර්යභාරය (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_07_SAL_BS_12_7.3_centralBank.pdf",
+            "path": "notes/bs/ethak/unit_07_SAL_BS_12_7.3_centralBank.pdf",
             "size": 1327581,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29903"
           },
           {
             "title": "ශ්‍රි ලංකාවේ ව්‍යාපාර වර්ධනයට සහය වන මූල්‍ය ආයතන පද්ධතිය (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_07_SAL_BS_12_7.2_Mulya_Ayathana.pdf",
+            "path": "notes/bs/ethak/unit_07_SAL_BS_12_7.2_Mulya_Ayathana.pdf",
             "size": 2146893,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29900"
@@ -7176,7 +7176,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-08",
         "title": "ව්‍යාපාරික රක්ෂණය",
         "englishTitle": "Insurance for Business Security",
-        "guidePath": "notes/business-studies/master-guides/unit-08.md",
+        "guidePath": "notes/bs/mg/unit-08.md",
         "videoCount": 18,
         "videos": [
           {
@@ -7274,22 +7274,22 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g12-l08-p01-insurance.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-08-insurance/bs_g12_l08_p01_insurance.pdf",
+            "path": "notes/bs/notes/g12/l08/bs_g12_l08_p01_insurance.pdf",
             "size": 680967
           },
           {
             "title": "bs-g12-l08-p02-insurance.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-08-insurance/bs_g12_l08_p02_insurance.pdf",
+            "path": "notes/bs/notes/g12/l08/bs_g12_l08_p02_insurance.pdf",
             "size": 431661
           },
           {
             "title": "bs-g12-l08-p03-insurance.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-08-insurance/bs_g12_l08_p03_insurance.pdf",
+            "path": "notes/bs/notes/g12/l08/bs_g12_l08_p03_insurance.pdf",
             "size": 485381
           },
           {
             "title": "unit-08-insurance-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-08-insurance-short-note.pdf",
+            "path": "notes/bs/short/unit-08-insurance-short-note.pdf",
             "size": 201792
           }
         ],
@@ -7317,7 +7317,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-09",
         "title": "ව්‍යාපාරික සන්නිවේදනය",
         "englishTitle": "Effective Business Communication",
-        "guidePath": "notes/business-studies/master-guides/unit-09.md",
+        "guidePath": "notes/bs/mg/unit-09.md",
         "videoCount": 12,
         "videos": [
           {
@@ -7385,17 +7385,17 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g12-l09-p01-communication.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-09-communication/bs_g12_l09_p01_communication.pdf",
+            "path": "notes/bs/notes/g12/l09/bs_g12_l09_p01_communication.pdf",
             "size": 677159
           },
           {
             "title": "bs-g12-l09-p02-communication.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-09-communication/bs_g12_l09_p02_communication.pdf",
+            "path": "notes/bs/notes/g12/l09/bs_g12_l09_p02_communication.pdf",
             "size": 482303
           },
           {
             "title": "unit-09-communication-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-09-communication-short-note.pdf",
+            "path": "notes/bs/short/unit-09-communication-short-note.pdf",
             "size": 227208
           }
         ],
@@ -7436,7 +7436,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-10",
         "title": "ප්‍රවාහනය, ගබඩාකරණය සහ සැපයුම් (Logistics)",
         "englishTitle": "Transportation, Warehousing & Logistics",
-        "guidePath": "notes/business-studies/master-guides/unit-10.md",
+        "guidePath": "notes/bs/mg/unit-10.md",
         "videoCount": 22,
         "videos": [
           {
@@ -7554,34 +7554,34 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g12-l10-p01-transportation-warehousing-and-logistics.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-10-logistics/bs_g12_l10_p01_transportation_wa_320d1c.pdf",
+            "path": "notes/bs/notes/g12/l10/bs_g12_l10_p01_transportation_wa_320d1c.pdf",
             "size": 464171
           },
           {
             "title": "bs-g12-l10-p02-transportation-warehousing-and-logistics.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-10-logistics/bs_g12_l10_p02_transportation_wa_5bf501.pdf",
+            "path": "notes/bs/notes/g12/l10/bs_g12_l10_p02_transportation_wa_5bf501.pdf",
             "size": 416282
           },
           {
             "title": "bs-g12-l10-p03-transportation-warehousing-and-logistics.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-10-logistics/bs_g12_l10_p03_transportation_wa_bd06c2.pdf",
+            "path": "notes/bs/notes/g12/l10/bs_g12_l10_p03_transportation_wa_bd06c2.pdf",
             "size": 492363
           },
           {
             "title": "bs-g12-l10-p04-transportation-warehousing-and-logistics.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-10-logistics/bs_g12_l10_p04_transportation_wa_2b18c5.pdf",
+            "path": "notes/bs/notes/g12/l10/bs_g12_l10_p04_transportation_wa_2b18c5.pdf",
             "size": 414937
           },
           {
             "title": "අවස්ථාවට උචිත ප්‍රවාහන ක්‍රමයක් හා මාධ්‍යයක් තේරීම (පිළිතුරු) (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_10_Business_Studies_10_2_Mo_3c74bb_1.pdf",
+            "path": "notes/bs/ethak/unit_10_Business_Studies_10_2_Mo_3c74bb_1.pdf",
             "size": 923243,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29945"
           },
           {
             "title": "අවස්ථාවට උචිත ප්‍රවාහන ක්‍රමයක් හා මාධ්‍යයක් තේරීම (අභ්‍යාස) (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_10_Business_Studies_10_2_Mo_3c74bb.pdf",
+            "path": "notes/bs/ethak/unit_10_Business_Studies_10_2_Mo_3c74bb.pdf",
             "size": 1051923,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29944"
@@ -7632,7 +7632,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-11",
         "title": "දේශීය සහ විදේශීය වෙළඳාම",
         "englishTitle": "Domestic & International Trade",
-        "guidePath": "notes/business-studies/master-guides/unit-11.md",
+        "guidePath": "notes/bs/mg/unit-11.md",
         "videoCount": 45,
         "videos": [
           {
@@ -7865,47 +7865,47 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g12-l11-p01-trade.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-11-trade/bs-g12-l11-p01-trade.pdf",
+            "path": "notes/bs/notes/g12/l11/bs-g12-l11-p01-trade.pdf",
             "size": 699116
           },
           {
             "title": "bs-g12-l11-p02-trade.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-11-trade/bs-g12-l11-p02-trade.pdf",
+            "path": "notes/bs/notes/g12/l11/bs-g12-l11-p02-trade.pdf",
             "size": 440425
           },
           {
             "title": "bs-g12-l11-p03-trade.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-11-trade/bs-g12-l11-p03-trade.pdf",
+            "path": "notes/bs/notes/g12/l11/bs-g12-l11-p03-trade.pdf",
             "size": 370492
           },
           {
             "title": "bs-g12-l11-p04-trade.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-11-trade/bs-g12-l11-p04-trade.pdf",
+            "path": "notes/bs/notes/g12/l11/bs-g12-l11-p04-trade.pdf",
             "size": 466290
           },
           {
             "title": "bs-g12-l11-p05-trade.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-11-trade/bs-g12-l11-p05-trade.pdf",
+            "path": "notes/bs/notes/g12/l11/bs-g12-l11-p05-trade.pdf",
             "size": 504386
           },
           {
             "title": "bs-g12-l11-p06-trade.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-11-trade/bs-g12-l11-p06-trade.pdf",
+            "path": "notes/bs/notes/g12/l11/bs-g12-l11-p06-trade.pdf",
             "size": 601257
           },
           {
             "title": "bs-g12-l11-p07-trade.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-11-trade/bs-g12-l11-p07-trade.pdf",
+            "path": "notes/bs/notes/g12/l11/bs-g12-l11-p07-trade.pdf",
             "size": 443575
           },
           {
             "title": "comprehensive-theory.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-12/lesson-11-trade/comprehensive-theory.pdf",
+            "path": "notes/bs/notes/g12/l11/comprehensive-theory.pdf",
             "size": 687747
           },
           {
             "title": "unit-11-foreign-trade-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-11-foreign-trade-short-note.pdf",
+            "path": "notes/bs/short/unit-11-foreign-trade-short-note.pdf",
             "size": 636388
           }
         ],
@@ -7918,7 +7918,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-12",
         "title": "කළමනාකරණය හැඳින්වීම සහ සංකල්ප",
         "englishTitle": "Introduction to Principles of Management",
-        "guidePath": "notes/business-studies/master-guides/unit-12.md",
+        "guidePath": "notes/bs/mg/unit-12.md",
         "videoCount": 48,
         "videos": [
           {
@@ -8166,62 +8166,62 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g13-l12-p01-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-12-management/bs_g13_l12_p01_management.pdf",
+            "path": "notes/bs/notes/g13/l12/bs_g13_l12_p01_management.pdf",
             "size": 563313
           },
           {
             "title": "bs-g13-l12-p02-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-12-management/bs_g13_l12_p02_management.pdf",
+            "path": "notes/bs/notes/g13/l12/bs_g13_l12_p02_management.pdf",
             "size": 434491
           },
           {
             "title": "bs-g13-l12-p03-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-12-management/bs_g13_l12_p03_management.pdf",
+            "path": "notes/bs/notes/g13/l12/bs_g13_l12_p03_management.pdf",
             "size": 469480
           },
           {
             "title": "bs-g13-l12-p04-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-12-management/bs_g13_l12_p04_management.pdf",
+            "path": "notes/bs/notes/g13/l12/bs_g13_l12_p04_management.pdf",
             "size": 384908
           },
           {
             "title": "bs-g13-l12-p05-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-12-management/bs_g13_l12_p05_management.pdf",
+            "path": "notes/bs/notes/g13/l12/bs_g13_l12_p05_management.pdf",
             "size": 396239
           },
           {
             "title": "bs-g13-l12-p06-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-12-management/bs_g13_l12_p06_management.pdf",
+            "path": "notes/bs/notes/g13/l12/bs_g13_l12_p06_management.pdf",
             "size": 598289
           },
           {
             "title": "bs-g13-l12-p07-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-12-management/bs_g13_l12_p07_management.pdf",
+            "path": "notes/bs/notes/g13/l12/bs_g13_l12_p07_management.pdf",
             "size": 427084
           },
           {
             "title": "bs-g13-l12-p08-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-12-management/bs_g13_l12_p08_management.pdf",
+            "path": "notes/bs/notes/g13/l12/bs_g13_l12_p08_management.pdf",
             "size": 554916
           },
           {
             "title": "comprehensive-theory.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-12-management/comprehensive-theory.pdf",
+            "path": "notes/bs/notes/g13/l12/comprehensive-theory.pdf",
             "size": 478984
           },
           {
             "title": "management-questions-pack.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-12-management/management_questions_pack.pdf",
+            "path": "notes/bs/notes/g13/l12/management_questions_pack.pdf",
             "size": 3097504
           },
           {
             "title": "unit-12-management-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-12-management-short-note.pdf",
+            "path": "notes/bs/short/unit-12-management-short-note.pdf",
             "size": 372790
           },
           {
             "title": "ක්‍රියාකාරකම 12.12 (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_12_12_12.pdf",
+            "path": "notes/bs/ethak/unit_12_12_12.pdf",
             "size": 188619,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29969"
@@ -8398,7 +8398,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-13",
         "title": "මෙහෙයුම් කළමනාකරණය",
         "englishTitle": "Operations & Quality Management",
-        "guidePath": "notes/business-studies/master-guides/unit-13.md",
+        "guidePath": "notes/bs/mg/unit-13.md",
         "videoCount": 38,
         "videos": [
           {
@@ -8596,71 +8596,71 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g13-l13-p01-operational-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-13-operational-management/bs_g13_l13_p01_operational_management.pdf",
+            "path": "notes/bs/notes/g13/l13/bs_g13_l13_p01_operational_management.pdf",
             "size": 477632
           },
           {
             "title": "bs-g13-l13-p02-operational-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-13-operational-management/bs_g13_l13_p02_operational_management.pdf",
+            "path": "notes/bs/notes/g13/l13/bs_g13_l13_p02_operational_management.pdf",
             "size": 520232
           },
           {
             "title": "bs-g13-l13-p03-operational-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-13-operational-management/bs_g13_l13_p03_operational_management.pdf",
+            "path": "notes/bs/notes/g13/l13/bs_g13_l13_p03_operational_management.pdf",
             "size": 594475
           },
           {
             "title": "bs-g13-l13-p04-operational-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-13-operational-management/bs_g13_l13_p04_operational_management.pdf",
+            "path": "notes/bs/notes/g13/l13/bs_g13_l13_p04_operational_management.pdf",
             "size": 378192
           },
           {
             "title": "bs-g13-l13-p05-operational-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-13-operational-management/bs_g13_l13_p05_operational_management.pdf",
+            "path": "notes/bs/notes/g13/l13/bs_g13_l13_p05_operational_management.pdf",
             "size": 424828
           },
           {
             "title": "bs-g13-l13-p06-operational-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-13-operational-management/bs_g13_l13_p06_operational_management.pdf",
+            "path": "notes/bs/notes/g13/l13/bs_g13_l13_p06_operational_management.pdf",
             "size": 495247
           },
           {
             "title": "bs-g13-l13-p07-operational-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-13-operational-management/bs_g13_l13_p07_operational_management.pdf",
+            "path": "notes/bs/notes/g13/l13/bs_g13_l13_p07_operational_management.pdf",
             "size": 429437
           },
           {
             "title": "bs-g13-l13-p08-operational-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-13-operational-management/bs_g13_l13_p08_operational_management.pdf",
+            "path": "notes/bs/notes/g13/l13/bs_g13_l13_p08_operational_management.pdf",
             "size": 418118
           },
           {
             "title": "bs-g13-l13-p09-operational-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-13-operational-management/bs_g13_l13_p09_operational_management.pdf",
+            "path": "notes/bs/notes/g13/l13/bs_g13_l13_p09_operational_management.pdf",
             "size": 528671
           },
           {
             "title": "unit-13-operations-management-short-note.pdf",
-            "path": "notes/business-studies/short-notes/unit-13-operations-management-short-note.pdf",
+            "path": "notes/bs/short/unit-13-operations-management-short-note.pdf",
             "size": 646127
           },
           {
             "title": "මෙහෙයුම් කළමනාකරණය ii (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_13_13_PPT.pdf",
+            "path": "notes/bs/ethak/unit_13_13_PPT.pdf",
             "size": 1422732,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29983"
           },
           {
             "title": "ඒකක අවබෝධ පිරික්සුම - 13 ඒකකය (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_13_Publication1.pdf",
+            "path": "notes/bs/ethak/unit_13_Publication1.pdf",
             "size": 1070986,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29980"
           },
           {
             "title": "මෙහෙයුම් කළමනාකරණය (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_13_13_word_1.pdf",
+            "path": "notes/bs/ethak/unit_13_13_word_1.pdf",
             "size": 1825012,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29982"
@@ -8806,7 +8806,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-14",
         "title": "අලෙවිකරණ කළමනාකරණය (Marketing Mix)",
         "englishTitle": "Marketing Management & The 4Ps",
-        "guidePath": "notes/business-studies/master-guides/unit-14.md",
+        "guidePath": "notes/bs/mg/unit-14.md",
         "videoCount": 53,
         "videos": [
           {
@@ -9079,64 +9079,64 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g13-l14-p01-marketing-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-14-marketing-management/bs_g13_l14_p01_marketing_management.pdf",
+            "path": "notes/bs/notes/g13/l14/bs_g13_l14_p01_marketing_management.pdf",
             "size": 689063
           },
           {
             "title": "bs-g13-l14-p02-marketing-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-14-marketing-management/bs_g13_l14_p02_marketing_management.pdf",
+            "path": "notes/bs/notes/g13/l14/bs_g13_l14_p02_marketing_management.pdf",
             "size": 463740
           },
           {
             "title": "bs-g13-l14-p03-marketing-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-14-marketing-management/bs_g13_l14_p03_marketing_management.pdf",
+            "path": "notes/bs/notes/g13/l14/bs_g13_l14_p03_marketing_management.pdf",
             "size": 414527
           },
           {
             "title": "bs-g13-l14-p04-marketing-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-14-marketing-management/bs_g13_l14_p04_marketing_management.pdf",
+            "path": "notes/bs/notes/g13/l14/bs_g13_l14_p04_marketing_management.pdf",
             "size": 432835
           },
           {
             "title": "bs-g13-l14-p05-marketing-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-14-marketing-management/bs_g13_l14_p05_marketing_management.pdf",
+            "path": "notes/bs/notes/g13/l14/bs_g13_l14_p05_marketing_management.pdf",
             "size": 696471
           },
           {
             "title": "bs-g13-l14-p06-marketing-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-14-marketing-management/bs_g13_l14_p06_marketing_management.pdf",
+            "path": "notes/bs/notes/g13/l14/bs_g13_l14_p06_marketing_management.pdf",
             "size": 400513
           },
           {
             "title": "bs-g13-l14-p07-marketing-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-14-marketing-management/bs_g13_l14_p07_marketing_management.pdf",
+            "path": "notes/bs/notes/g13/l14/bs_g13_l14_p07_marketing_management.pdf",
             "size": 434971
           },
           {
             "title": "bs-g13-l14-p08-marketing-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-14-marketing-management/bs_g13_l14_p08_marketing_management.pdf",
+            "path": "notes/bs/notes/g13/l14/bs_g13_l14_p08_marketing_management.pdf",
             "size": 363694
           },
           {
             "title": "bs-g13-l14-p09-marketing-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-14-marketing-management/bs_g13_l14_p09_marketing_management.pdf",
+            "path": "notes/bs/notes/g13/l14/bs_g13_l14_p09_marketing_management.pdf",
             "size": 507894
           },
           {
             "title": "bs-g13-l14-p10-marketing-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-14-marketing-management/bs_g13_l14_p10_marketing_management.pdf",
+            "path": "notes/bs/notes/g13/l14/bs_g13_l14_p10_marketing_management.pdf",
             "size": 425639
           },
           {
             "title": "අලෙවි කළමනාකරණය ii (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_14_14_Word.pdf",
+            "path": "notes/bs/ethak/unit_14_14_Word.pdf",
             "size": 639526,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29988"
           },
           {
             "title": "අලෙවි කළමනාකරණය (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_14_14_PPT.pdf",
+            "path": "notes/bs/ethak/unit_14_14_PPT.pdf",
             "size": 6318876,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29987"
@@ -9187,7 +9187,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-15",
         "title": "මූල්‍ය කළමනාකරණය",
         "englishTitle": "Financial Management & Capital Structure",
-        "guidePath": "notes/business-studies/master-guides/unit-15.md",
+        "guidePath": "notes/bs/mg/unit-15.md",
         "videoCount": 53,
         "videos": [
           {
@@ -9460,52 +9460,52 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g13-l15-p01-financial-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-15-financial-management/bs_g13_l15_p01_financial_management.pdf",
+            "path": "notes/bs/notes/g13/l15/bs_g13_l15_p01_financial_management.pdf",
             "size": 594144
           },
           {
             "title": "bs-g13-l15-p02-financial-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-15-financial-management/bs_g13_l15_p02_financial_management.pdf",
+            "path": "notes/bs/notes/g13/l15/bs_g13_l15_p02_financial_management.pdf",
             "size": 457592
           },
           {
             "title": "bs-g13-l15-p03-financial-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-15-financial-management/bs_g13_l15_p03_financial_management.pdf",
+            "path": "notes/bs/notes/g13/l15/bs_g13_l15_p03_financial_management.pdf",
             "size": 379822
           },
           {
             "title": "bs-g13-l15-p04-financial-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-15-financial-management/bs_g13_l15_p04_financial_management.pdf",
+            "path": "notes/bs/notes/g13/l15/bs_g13_l15_p04_financial_management.pdf",
             "size": 851453
           },
           {
             "title": "bs-g13-l15-p05-financial-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-15-financial-management/bs_g13_l15_p05_financial_management.pdf",
+            "path": "notes/bs/notes/g13/l15/bs_g13_l15_p05_financial_management.pdf",
             "size": 447007
           },
           {
             "title": "bs-g13-l15-p06-financial-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-15-financial-management/bs_g13_l15_p06_financial_management.pdf",
+            "path": "notes/bs/notes/g13/l15/bs_g13_l15_p06_financial_management.pdf",
             "size": 449460
           },
           {
             "title": "bs-g13-l15-p07-financial-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-15-financial-management/bs_g13_l15_p07_financial_management.pdf",
+            "path": "notes/bs/notes/g13/l15/bs_g13_l15_p07_financial_management.pdf",
             "size": 433375
           },
           {
             "title": "bs-g13-l15-p08-financial-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-15-financial-management/bs_g13_l15_p08_financial_management.pdf",
+            "path": "notes/bs/notes/g13/l15/bs_g13_l15_p08_financial_management.pdf",
             "size": 428796
           },
           {
             "title": "bs-g13-l15-p09-financial-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-15-financial-management/bs_g13_l15_p09_financial_management.pdf",
+            "path": "notes/bs/notes/g13/l15/bs_g13_l15_p09_financial_management.pdf",
             "size": 386474
           },
           {
             "title": "මූල්‍ය කළමනාකරණය (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_15_15_Word.pdf",
+            "path": "notes/bs/ethak/unit_15_15_Word.pdf",
             "size": 661651,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29990"
@@ -9525,7 +9525,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-16",
         "title": "මානව සම්පත් කළමනාකරණය (HRM)",
         "englishTitle": "Human Resource Management (HRM)",
-        "guidePath": "notes/business-studies/master-guides/unit-16.md",
+        "guidePath": "notes/bs/mg/unit-16.md",
         "videoCount": 60,
         "videos": [
           {
@@ -9833,74 +9833,74 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g13-l16-p01-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p01_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p01_human_resource_management.pdf",
             "size": 409408
           },
           {
             "title": "bs-g13-l16-p02-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p02_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p02_human_resource_management.pdf",
             "size": 453350
           },
           {
             "title": "bs-g13-l16-p03-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p03_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p03_human_resource_management.pdf",
             "size": 418713
           },
           {
             "title": "bs-g13-l16-p04-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p04_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p04_human_resource_management.pdf",
             "size": 449103
           },
           {
             "title": "bs-g13-l16-p05-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p05_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p05_human_resource_management.pdf",
             "size": 466473
           },
           {
             "title": "bs-g13-l16-p06-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p06_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p06_human_resource_management.pdf",
             "size": 409031
           },
           {
             "title": "bs-g13-l16-p07-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p07_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p07_human_resource_management.pdf",
             "size": 477345
           },
           {
             "title": "bs-g13-l16-p08-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p08_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p08_human_resource_management.pdf",
             "size": 438237
           },
           {
             "title": "bs-g13-l16-p09-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p09_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p09_human_resource_management.pdf",
             "size": 389030
           },
           {
             "title": "bs-g13-l16-p10-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p10_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p10_human_resource_management.pdf",
             "size": 390730
           },
           {
             "title": "bs-g13-l16-p11-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p11_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p11_human_resource_management.pdf",
             "size": 754083
           },
           {
             "title": "bs-g13-l16-p12-human-resource-management.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-16-hrm/bs_g13_l16_p12_human_resource_management.pdf",
+            "path": "notes/bs/notes/g13/l16/bs_g13_l16_p12_human_resource_management.pdf",
             "size": 400506
           },
           {
             "title": "මානව සම්පත් කළමනාකරණය ii (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_16_16_Word.pdf",
+            "path": "notes/bs/ethak/unit_16_16_Word.pdf",
             "size": 851402,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29995"
           },
           {
             "title": "මානව සම්පත් කළමනාකරණය (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_16_16_PPT.pdf",
+            "path": "notes/bs/ethak/unit_16_16_PPT.pdf",
             "size": 2405443,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29994"
@@ -9932,7 +9932,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-17",
         "title": "ව්‍යාපාර තොරතුරු පද්ධති (IS)",
         "englishTitle": "Business Information Systems",
-        "guidePath": "notes/business-studies/master-guides/unit-17.md",
+        "guidePath": "notes/bs/mg/unit-17.md",
         "videoCount": 36,
         "videos": [
           {
@@ -10120,42 +10120,42 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g13-l17-p01-information-system.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-17-information-system/bs_g13_l17_p01_information_system.pdf",
+            "path": "notes/bs/notes/g13/l17/bs_g13_l17_p01_information_system.pdf",
             "size": 455240
           },
           {
             "title": "bs-g13-l17-p02-information-system.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-17-information-system/bs_g13_l17_p02_information_system.pdf",
+            "path": "notes/bs/notes/g13/l17/bs_g13_l17_p02_information_system.pdf",
             "size": 455663
           },
           {
             "title": "bs-g13-l17-p03-information-system.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-17-information-system/bs_g13_l17_p03_information_system.pdf",
+            "path": "notes/bs/notes/g13/l17/bs_g13_l17_p03_information_system.pdf",
             "size": 389609
           },
           {
             "title": "bs-g13-l17-p04-information-system.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-17-information-system/bs_g13_l17_p04_information_system.pdf",
+            "path": "notes/bs/notes/g13/l17/bs_g13_l17_p04_information_system.pdf",
             "size": 605338
           },
           {
             "title": "bs-g13-l17-p05-information-system.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-17-information-system/bs_g13_l17_p05_information_system.pdf",
+            "path": "notes/bs/notes/g13/l17/bs_g13_l17_p05_information_system.pdf",
             "size": 395222
           },
           {
             "title": "bs-g13-l17-p06-information-system.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-17-information-system/bs_g13_l17_p06_information_system.pdf",
+            "path": "notes/bs/notes/g13/l17/bs_g13_l17_p06_information_system.pdf",
             "size": 436896
           },
           {
             "title": "bs-g13-l17-p07-information-system.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-17-information-system/bs_g13_l17_p07_information_system.pdf",
+            "path": "notes/bs/notes/g13/l17/bs_g13_l17_p07_information_system.pdf",
             "size": 444958
           },
           {
             "title": "තොරතුරු පද්ධති (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_17_17_Word.pdf",
+            "path": "notes/bs/ethak/unit_17_17_Word.pdf",
             "size": 449741,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29997"
@@ -10175,7 +10175,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-18",
         "title": "ව්‍යාපාර සැලසුම්කරණය",
         "englishTitle": "Business Plan Formulation & Implementation",
-        "guidePath": "notes/business-studies/master-guides/unit-18.md",
+        "guidePath": "notes/bs/mg/unit-18.md",
         "videoCount": 29,
         "videos": [
           {
@@ -10328,49 +10328,49 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "bs-g13-l18-p01-business-plan.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-18-business-plan/bs_g13_l18_p01_business_plan.pdf",
+            "path": "notes/bs/notes/g13/l18/bs_g13_l18_p01_business_plan.pdf",
             "size": 508030
           },
           {
             "title": "bs-g13-l18-p02-business-plan.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-18-business-plan/bs_g13_l18_p02_business_plan.pdf",
+            "path": "notes/bs/notes/g13/l18/bs_g13_l18_p02_business_plan.pdf",
             "size": 514903
           },
           {
             "title": "bs-g13-l18-p03-business-plan.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-18-business-plan/bs_g13_l18_p03_business_plan.pdf",
+            "path": "notes/bs/notes/g13/l18/bs_g13_l18_p03_business_plan.pdf",
             "size": 581783
           },
           {
             "title": "bs-g13-l18-p04-business-plan.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-18-business-plan/bs_g13_l18_p04_business_plan.pdf",
+            "path": "notes/bs/notes/g13/l18/bs_g13_l18_p04_business_plan.pdf",
             "size": 455579
           },
           {
             "title": "bs-g13-l18-p05-business-plan.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-18-business-plan/bs_g13_l18_p05_business_plan.pdf",
+            "path": "notes/bs/notes/g13/l18/bs_g13_l18_p05_business_plan.pdf",
             "size": 629985
           },
           {
             "title": "bs-g13-l18-p06-business-plan.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-18-business-plan/bs_g13_l18_p06_business_plan.pdf",
+            "path": "notes/bs/notes/g13/l18/bs_g13_l18_p06_business_plan.pdf",
             "size": 409535
           },
           {
             "title": "bs-g13-l18-p07-business-plan.pdf",
-            "path": "notes/business-studies/lesson-notes/grade-13/lesson-18-business-plan/bs_g13_l18_p07_business_plan.pdf",
+            "path": "notes/bs/notes/g13/l18/bs_g13_l18_p07_business_plan.pdf",
             "size": 394349
           },
           {
             "title": "ව්‍යාපාර සැලසුම් (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_18_18_PPT.pdf",
+            "path": "notes/bs/ethak/unit_18_18_PPT.pdf",
             "size": 1160448,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=29999"
           },
           {
             "title": "ව්‍යාපාර සැලසුම් ii (MOE e-Thaksalawa)",
-            "path": "notes/business/ethaksalawa/unit_18_18_Word.pdf",
+            "path": "notes/bs/ethak/unit_18_18_Word.pdf",
             "size": 167894,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=30000"
@@ -10399,14 +10399,14 @@ export const CURRICULUM_DATA = {
     "gradient": "from-emerald-600 to-teal-600",
     "color": "#10b981",
     "icon": "TrendingUp",
-    "resourceGuide": "notes/economics/resource-guides/al-economics-complete-resource-guide-2026.pdf",
+    "resourceGuide": "notes/econ/guides/al-economics-complete-resource-guide-2026.pdf",
     "units": [
       {
         "unitNumber": 1,
         "unitCode": "unit-01",
         "title": "මූලික ආර්ථික ගැටලු සහ නිෂ්පාදන ශක්‍යතා වක්‍රය",
         "englishTitle": "Fundamental Economic Problems & PPC",
-        "guidePath": "notes/economics/master-guides/unit-01.md",
+        "guidePath": "notes/econ/mg/unit-01.md",
         "videoCount": 20,
         "videos": [
           {
@@ -10514,180 +10514,180 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "economic-unit-01-basic-concepts.pdf",
-            "path": "notes/economics/lesson-notes/unit-01-basic-economic-concepts/economic_unit_01_basic_concepts.pdf",
+            "path": "notes/econ/notes/u01/economic_unit_01_basic_concepts.pdf",
             "size": 23554000
           },
           {
             "title": "ppc-seminar-01.pdf",
-            "path": "notes/economics/lesson-notes/unit-01-basic-economic-concepts/ppc-seminar-01.pdf",
+            "path": "notes/econ/notes/u01/ppc-seminar-01.pdf",
             "size": 680984
           },
           {
             "title": "ppc-seminar-02.pdf",
-            "path": "notes/economics/lesson-notes/unit-01-basic-economic-concepts/ppc-seminar-02.pdf",
+            "path": "notes/econ/notes/u01/ppc-seminar-02.pdf",
             "size": 851085
           },
           {
             "title": "ppc-seminar-03.pdf",
-            "path": "notes/economics/lesson-notes/unit-01-basic-economic-concepts/ppc-seminar-03.pdf",
+            "path": "notes/econ/notes/u01/ppc-seminar-03.pdf",
             "size": 482479
           },
           {
             "title": "unit-01-mcq-pack.pdf",
-            "path": "notes/economics/lesson-notes/unit-01-basic-economic-concepts/unit-01-mcq-pack.pdf",
+            "path": "notes/econ/notes/u01/unit-01-mcq-pack.pdf",
             "size": 948909
           },
           {
             "title": "unit-01-ppc-revision-notes.pdf",
-            "path": "notes/economics/lesson-notes/unit-01-basic-economic-concepts/unit_01_ppc_revision_notes.pdf",
+            "path": "notes/econ/notes/u01/unit_01_ppc_revision_notes.pdf",
             "size": 552163
           },
           {
             "title": "unit-01-basic-concepts-short-note.pdf",
-            "path": "notes/economics/short-notes/unit-01-basic-concepts-short-note.pdf",
+            "path": "notes/econ/short/unit-01-basic-concepts-short-note.pdf",
             "size": 1279769
           },
           {
             "title": "unit-01-ppc-full-short-note.pdf",
-            "path": "notes/economics/short-notes/unit-01-ppc-full-short-note.pdf",
+            "path": "notes/econ/short/unit-01-ppc-full-short-note.pdf",
             "size": 1143719
           },
           {
             "title": "1.5 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_Eco_1.5_lo.pdf",
+            "path": "notes/econ/ethak/unit_01_Eco_1.5_lo.pdf",
             "size": 103799,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32604"
           },
           {
             "title": "ගුරු මාර්ගෝපදේශ සංග්‍රහය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_SAL_Econ_Tim.pdf",
+            "path": "notes/econ/ethak/unit_01_SAL_Econ_Tim.pdf",
             "size": 2043362,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32591"
           },
           {
             "title": "විෂය නිර්දේශය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_SAL_Econ_Syl.pdf",
+            "path": "notes/econ/ethak/unit_01_SAL_Econ_Syl.pdf",
             "size": 414980,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32592"
           },
           {
             "title": "1.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_Eco_1.3_lo.pdf",
+            "path": "notes/econ/ethak/unit_01_Eco_1.3_lo.pdf",
             "size": 186461,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32598"
           },
           {
             "title": "1.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_Eco_1.1_lo.pdf",
+            "path": "notes/econ/ethak/unit_01_Eco_1.1_lo.pdf",
             "size": 112456,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32594"
           },
           {
             "title": "1.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_Eco_1.2_lo.pdf",
+            "path": "notes/econ/ethak/unit_01_Eco_1.2_lo.pdf",
             "size": 112079,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32596"
           },
           {
             "title": "1.4 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_Eco_1.4_lo.pdf",
+            "path": "notes/econ/ethak/unit_01_Eco_1.4_lo.pdf",
             "size": 114474,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32602"
           },
           {
             "title": "1.6 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_Eco_1.6_lo.pdf",
+            "path": "notes/econ/ethak/unit_01_Eco_1.6_lo.pdf",
             "size": 106442,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32606"
           },
           {
             "title": "නිෂ්පාදන සාධක - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_SAL_Econ_Unit1_1.3_activity.pdf",
+            "path": "notes/econ/ethak/unit_01_SAL_Econ_Unit1_1.3_activity.pdf",
             "size": 1466278,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32601"
           },
           {
             "title": "1.7 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_Eco_1.7_lo.pdf",
+            "path": "notes/econ/ethak/unit_01_Eco_1.7_lo.pdf",
             "size": 110313,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32608"
           },
           {
             "title": "1.8 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_Eco_1.8_lo.pdf",
+            "path": "notes/econ/ethak/unit_01_Eco_1.8_lo.pdf",
             "size": 111973,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32609"
           },
           {
             "title": "ව්‍යුහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_1_2.pdf",
+            "path": "notes/econ/ethak/unit_01_1_2.pdf",
             "size": 192100,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32625"
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_1_1.pdf",
+            "path": "notes/econ/ethak/unit_01_1_1.pdf",
             "size": 140714,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32624"
           },
           {
             "title": "1.9 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_Eco_1.9_lo.pdf",
+            "path": "notes/econ/ethak/unit_01_Eco_1.9_lo.pdf",
             "size": 113189,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32611"
           },
           {
             "title": "මූලික ආර්ථික ගැටලු (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_SAL_Econ_Unit1_1.5_mulika_arthika_gatalu.pdf",
+            "path": "notes/econ/ethak/unit_01_SAL_Econ_Unit1_1.5_mulika_arthika_gatalu.pdf",
             "size": 1042108,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32617"
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_1.pdf",
+            "path": "notes/econ/ethak/unit_01_1.pdf",
             "size": 260224,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32622"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_1_3.pdf",
+            "path": "notes/econ/ethak/unit_01_1_3.pdf",
             "size": 379756,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32626"
           },
           {
             "title": "මූලික ආර්ථික ගැටලු විසඳීම (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_SAL_Econ_Unit1_1_6_mulik_d335c2.pdf",
+            "path": "notes/econ/ethak/unit_01_SAL_Econ_Unit1_1_6_mulik_d335c2.pdf",
             "size": 1299448,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32619"
           },
           {
             "title": "ආර්ථිකයක කේන්ද්‍රීය ගැටලුව - ප්‍රශ්න සහ පිළිතුරු (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_SAL_Econ_Unit1_1_4_arthi_432a1e.pdf",
+            "path": "notes/econ/ethak/unit_01_SAL_Econ_Unit1_1_4_arthi_432a1e.pdf",
             "size": 996758,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32615"
           },
           {
             "title": "ආර්ථික පද්ධතියක මූලික ආර්ථික ප්‍රශ්න සහ ඒවා විසඳා ගන්නා විකල්ප ක්‍රම (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_12_Econ_1_edit_(1)_final.pdf",
+            "path": "notes/econ/ethak/unit_01_12_Econ_1_edit_(1)_final.pdf",
             "size": 1309529,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32620"
@@ -11361,7 +11361,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-02",
         "title": "ඉල්ලුම, සැපයුම, මිල යාන්ත්‍රණය සහ ප්‍රත්‍යාස්ථතාව",
         "englishTitle": "Demand, Supply, Price Mechanism & Elasticity",
-        "guidePath": "notes/economics/master-guides/unit-02.md",
+        "guidePath": "notes/econ/mg/unit-02.md",
         "videoCount": 38,
         "videos": [
           {
@@ -11559,212 +11559,212 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "02 - මිල, ආදේශන,ආදායම් ප්_රතිවිපාක (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_2_Word.pdf",
+            "path": "notes/econ/ethak/unit_01_2_Word.pdf",
             "size": 591984,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32907"
           },
           {
             "title": "02 - මිල, ආදේශන,ආදායම් ප්_රතිවිපාක (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_01_02_PPT.pdf",
+            "path": "notes/econ/ethak/unit_01_02_PPT.pdf",
             "size": 829420,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32906"
           },
           {
             "title": "economic-unit-02-demand-and-supply-part-1.pdf",
-            "path": "notes/economics/lesson-notes/unit-02-demand-supply-elasticity-equilibrium/economic_unit_02_demand_and_supp_113dd3.pdf",
+            "path": "notes/econ/notes/u02/economic_unit_02_demand_and_supp_113dd3.pdf",
             "size": 26890802
           },
           {
             "title": "economic-unit-02-demand-and-supply-part-2.pdf",
-            "path": "notes/economics/lesson-notes/unit-02-demand-supply-elasticity-equilibrium/economic_unit_02_demand_and_supp_7e42c2.pdf",
+            "path": "notes/econ/notes/u02/economic_unit_02_demand_and_supp_7e42c2.pdf",
             "size": 8360524
           },
           {
             "title": "unit-02-al-past-paper-mcqs.pdf",
-            "path": "notes/economics/lesson-notes/unit-02-demand-supply-elasticity-equilibrium/unit_02_al_past_paper_mcqs.pdf",
+            "path": "notes/econ/notes/u02/unit_02_al_past_paper_mcqs.pdf",
             "size": 2539769
           },
           {
             "title": "unit-02-full-mcq-pack.pdf",
-            "path": "notes/economics/lesson-notes/unit-02-demand-supply-elasticity-equilibrium/unit_02_full_mcq_pack.pdf",
+            "path": "notes/econ/notes/u02/unit_02_full_mcq_pack.pdf",
             "size": 1227852
           },
           {
             "title": "unit-02-demand-supply-short-note.pdf",
-            "path": "notes/economics/short-notes/unit-02-demand-supply-short-note.pdf",
+            "path": "notes/econ/short/unit-02-demand-supply-short-note.pdf",
             "size": 2016945
           },
           {
             "title": "unit-02-full-short-note-pack.pdf",
-            "path": "notes/economics/short-notes/unit-02-full-short-note-pack.pdf",
+            "path": "notes/econ/short/unit-02-full-short-note-pack.pdf",
             "size": 2313607
           },
           {
             "title": "2.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.1_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.1_lo.pdf",
             "size": 117384,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32627"
           },
           {
             "title": "2.1 ඉල්ලුම් තීරක ඇසුරෙන් ඉල්ලුම් න්‍යාය හා ඉල්ලුම් නීතිය විග‍්‍රහ කරයි. (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_2.1.pdf",
+            "path": "notes/econ/ethak/unit_02_2.1.pdf",
             "size": 1150558,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32629"
           },
           {
             "title": "2.2 ඉල්ලුම් ප‍්‍රමාණය වෙනස් වීම හා ඉල්ලුම වෙනස් වීම අතර වෙනස සංසන්දනය කරයි (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_2.2.pdf",
+            "path": "notes/econ/ethak/unit_02_2.2.pdf",
             "size": 1057904,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32632"
           },
           {
             "title": "2.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.2_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.2_lo.pdf",
             "size": 106611,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32630"
           },
           {
             "title": "2.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.3_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.3_lo.pdf",
             "size": 193224,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32633"
           },
           {
             "title": "2.4 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.4_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.4_lo.pdf",
             "size": 103686,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32636"
           },
           {
             "title": "2.5 හරස් මිල ඉල්ලුම් නම්‍යතාව අනුව තාර්කික ව තීරණ ගන්නා අයුරු විමසයි. (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_2.5.pdf",
+            "path": "notes/econ/ethak/unit_02_2.5.pdf",
             "size": 617987,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32640"
           },
           {
             "title": "2.6 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.6_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.6_lo.pdf",
             "size": 105381,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32642"
           },
           {
             "title": "2.5 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.5_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.5_lo.pdf",
             "size": 109301,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32639"
           },
           {
             "title": "2.4 මිල ඉල්ලුම් නම්‍යතාව අනුව තාර්කික ව තීරණ ගන්නා අයුරු විමසයි. (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_2.4.pdf",
+            "path": "notes/econ/ethak/unit_02_2.4.pdf",
             "size": 673988,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32637"
           },
           {
             "title": "2.8 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.8_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.8_lo.pdf",
             "size": 110378,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32648"
           },
           {
             "title": "2.6 ආදායම් ඉල්ලුම් නම්‍යතාව අනුව තාර්කික ව තීරණ ගන්නා අයුරු විමසයි. (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_2.6.pdf",
+            "path": "notes/econ/ethak/unit_02_2.6.pdf",
             "size": 628821,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32643"
           },
           {
             "title": "2.3 ඉල්ලුම් නම්‍යතාව අර්ථ දක්වමින් මිල ඉල්ලුම් නම්‍යතාව විග‍්‍රහ කරයි. (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_2.3.pdf",
+            "path": "notes/econ/ethak/unit_02_2.3.pdf",
             "size": 1023450,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32634"
           },
           {
             "title": "2.10 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.10_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.10_lo.pdf",
             "size": 109535,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32653"
           },
           {
             "title": "2.7 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.7_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.7_lo.pdf",
             "size": 114909,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32645"
           },
           {
             "title": "2.8 සැපයුම් ප‍්‍රමාණය වෙනස් වීම හා සැපයුම වෙනස් වීම අතර වෙනස සසඳයි. (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_2.8.pdf",
+            "path": "notes/econ/ethak/unit_02_2.8.pdf",
             "size": 996790,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32649"
           },
           {
             "title": "2.11 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.11_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.11_lo.pdf",
             "size": 115990,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32655"
           },
           {
             "title": "2.7 සැපයුම් තීරක ඇසුරෙන් සැපයුම් න්‍යාය හා සැපයුම් නීතිය විග‍්‍රහ කරයි. (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_2.7.pdf",
+            "path": "notes/econ/ethak/unit_02_2.7.pdf",
             "size": 906630,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32646"
           },
           {
             "title": "2.12 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.12_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.12_lo.pdf",
             "size": 106079,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32656"
           },
           {
             "title": "2.9 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_Eco_2.9_lo.pdf",
+            "path": "notes/econ/ethak/unit_02_Eco_2.9_lo.pdf",
             "size": 113634,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32651"
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_02.pdf",
+            "path": "notes/econ/ethak/unit_02_02.pdf",
             "size": 304047,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32661"
           },
           {
             "title": "ව්‍යුහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_02_2.pdf",
+            "path": "notes/econ/ethak/unit_02_02_2.pdf",
             "size": 186981,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32663"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_02_3.pdf",
+            "path": "notes/econ/ethak/unit_02_02_3.pdf",
             "size": 641199,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32664"
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_02_02_1.pdf",
+            "path": "notes/econ/ethak/unit_02_02_1.pdf",
             "size": 141631,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32662"
@@ -12037,7 +12037,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-03",
         "title": "වෙළඳපොළට රජයේ මැදිහත්වීම (බදු/සහනාධාර/මිල පාලන)",
         "englishTitle": "Government Intervention: Taxes, Subsidies & Controls",
-        "guidePath": "notes/economics/master-guides/unit-03.md",
+        "guidePath": "notes/econ/mg/unit-03.md",
         "videoCount": 43,
         "videos": [
           {
@@ -12260,87 +12260,87 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "economic-unit-03-taxes-subsidies-price-controls.pdf",
-            "path": "notes/economics/lesson-notes/unit-03-taxes-subsidies-price-controls/economic_unit_03_taxes_subsidies_a24d3f.pdf",
+            "path": "notes/econ/notes/u03/economic_unit_03_taxes_subsidies_a24d3f.pdf",
             "size": 22756025
           },
           {
             "title": "unit-03-taxes-subsidies-short-note.pdf",
-            "path": "notes/economics/short-notes/unit-03-taxes-subsidies-short-note.pdf",
+            "path": "notes/econ/short/unit-03-taxes-subsidies-short-note.pdf",
             "size": 903845
           },
           {
             "title": "3.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_03_Eco_3.2_lo.pdf",
+            "path": "notes/econ/ethak/unit_03_Eco_3.2_lo.pdf",
             "size": 111980,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32668"
           },
           {
             "title": "3.4 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_03_Eco_3.4_lo.pdf",
+            "path": "notes/econ/ethak/unit_03_Eco_3.4_lo.pdf",
             "size": 112573,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32672"
           },
           {
             "title": "3.5 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_03_Eco_3.5_lo.pdf",
+            "path": "notes/econ/ethak/unit_03_Eco_3.5_lo.pdf",
             "size": 115704,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32675"
           },
           {
             "title": "3.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_03_Eco_3.1_lo.pdf",
+            "path": "notes/econ/ethak/unit_03_Eco_3.1_lo.pdf",
             "size": 97070,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32665"
           },
           {
             "title": "3.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_03_Eco_3.3_lo.pdf",
+            "path": "notes/econ/ethak/unit_03_Eco_3.3_lo.pdf",
             "size": 108477,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32670"
           },
           {
             "title": "ව්‍යුහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_03_3_2.pdf",
+            "path": "notes/econ/ethak/unit_03_3_2.pdf",
             "size": 196309,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32684"
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_03_3_1.pdf",
+            "path": "notes/econ/ethak/unit_03_3_1.pdf",
             "size": 142271,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32683"
           },
           {
             "title": "වෙළෙඳපොළට රජය මැදිහත් වන ආකාරය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_03_03_PPT.pdf",
+            "path": "notes/econ/ethak/unit_03_03_PPT.pdf",
             "size": 1029992,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32681"
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_03_3.pdf",
+            "path": "notes/econ/ethak/unit_03_3.pdf",
             "size": 404865,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32682"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_03_3_3.pdf",
+            "path": "notes/econ/ethak/unit_03_3_3.pdf",
             "size": 396444,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32685"
           },
           {
             "title": "වෙළෙඳපොළට රජය මැදිහත් වන ආකාරය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_03_03_Word.pdf",
+            "path": "notes/econ/ethak/unit_03_03_Word.pdf",
             "size": 1886285,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32680"
@@ -12500,7 +12500,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-04",
         "title": "නිෂ්පාදනය, පිරිවැය සහ වෙළඳපොළ ව්‍යුහයන්",
         "englishTitle": "Production Theory, Costs & Market Structures",
-        "guidePath": "notes/economics/master-guides/unit-04.md",
+        "guidePath": "notes/econ/mg/unit-04.md",
         "videoCount": 54,
         "videos": [
           {
@@ -12778,115 +12778,115 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "economic-unit-04-production-theory-market-structures.pdf",
-            "path": "notes/economics/lesson-notes/unit-04-production/economic_unit_04_production_theo_30fa77.pdf",
+            "path": "notes/econ/notes/u04/economic_unit_04_production_theo_30fa77.pdf",
             "size": 22393486
           },
           {
             "title": "unit-04-production-theory-short-note.pdf",
-            "path": "notes/economics/short-notes/unit-04-production-theory-short-note.pdf",
+            "path": "notes/econ/short/unit-04-production-theory-short-note.pdf",
             "size": 660029
           },
           {
             "title": "4.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_Eco_4.1_lo.pdf",
+            "path": "notes/econ/ethak/unit_04_Eco_4.1_lo.pdf",
             "size": 122853,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32686"
           },
           {
             "title": "4.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_Eco_4.3_lo.pdf",
+            "path": "notes/econ/ethak/unit_04_Eco_4.3_lo.pdf",
             "size": 116748,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32692"
           },
           {
             "title": "4.2 නිෂ්පාදන පිරිවැය ආශ්‍රිත මූලික සංකල්ප (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_SAL_ECON_4.2_nishpadana_piriweya.pdf",
+            "path": "notes/econ/ethak/unit_04_SAL_ECON_4.2_nishpadana_piriweya.pdf",
             "size": 922304,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32690"
           },
           {
             "title": "4.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_Eco_4.2_lo.pdf",
+            "path": "notes/econ/ethak/unit_04_Eco_4.2_lo.pdf",
             "size": 114878,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32689"
           },
           {
             "title": "4.1 ව්‍යාපාර ආයතනයක කෙටි කාලීන හා දිගු කාලීන නිෂ්පාදන ක්‍රියාවලියේ ස්වරූපය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_SAL-ECON-4.1_viyapara_aryathana_hadinvima.pdf",
+            "path": "notes/econ/ethak/unit_04_SAL-ECON-4.1_viyapara_aryathana_hadinvima.pdf",
             "size": 1604284,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32687"
           },
           {
             "title": "4.4 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_Eco_4.4_lo.pdf",
+            "path": "notes/econ/ethak/unit_04_Eco_4.4_lo.pdf",
             "size": 102914,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32695"
           },
           {
             "title": "4.5 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_Eco_4.5_lo.pdf",
+            "path": "notes/econ/ethak/unit_04_Eco_4.5_lo.pdf",
             "size": 119479,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32697"
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_04.pdf",
+            "path": "notes/econ/ethak/unit_04_04.pdf",
             "size": 327776,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32705"
           },
           {
             "title": "4.6 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_Eco_4.6_lo.pdf",
+            "path": "notes/econ/ethak/unit_04_Eco_4.6_lo.pdf",
             "size": 111713,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32700"
           },
           {
             "title": "ව්‍යුහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_04_2.pdf",
+            "path": "notes/econ/ethak/unit_04_04_2.pdf",
             "size": 194012,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32707"
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_04_1.pdf",
+            "path": "notes/econ/ethak/unit_04_04_1.pdf",
             "size": 153988,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32706"
           },
           {
             "title": "4.5 පූර්ණ තරගකාරී ආයතනයක් සහ කර්මාන්තය කෙටි කාලයේ දී හැසිරෙන ආකාරය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_SAL_econ_chap_4.5_(1).pdf",
+            "path": "notes/econ/ethak/unit_04_SAL_econ_chap_4.5_(1).pdf",
             "size": 1281969,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32698"
           },
           {
             "title": "4.6 නිෂ්පාදන සාධක (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_SAL_ECON_4.6_Nishpadana_sadaka.pdf",
+            "path": "notes/econ/ethak/unit_04_SAL_ECON_4.6_Nishpadana_sadaka.pdf",
             "size": 1573698,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32701"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_04_3.pdf",
+            "path": "notes/econ/ethak/unit_04_04_3.pdf",
             "size": 331749,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32708"
           },
           {
             "title": "4.3 නිෂ්පාදන ක්‍රියාවලියේ දී පිරිවැය හැසිරෙන ආකාරය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_04_SAL-ECON-4.3.pdf",
+            "path": "notes/econ/ethak/unit_04_SAL-ECON-4.3.pdf",
             "size": 1365947,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32693"
@@ -13041,7 +13041,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-05",
         "title": "ජාතික ගිණුම්කරණය (GDP / GNP / NNP)",
         "englishTitle": "National Income Accounting & Aggregates",
-        "guidePath": "notes/economics/master-guides/unit-05.md",
+        "guidePath": "notes/econ/mg/unit-05.md",
         "videoCount": 30,
         "videos": [
           {
@@ -13199,106 +13199,106 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "economic-unit-05-national-accounting-part-1.pdf",
-            "path": "notes/economics/lesson-notes/unit-05-national-accounting/economic_unit_05_national_accoun_8f1e9f.pdf",
+            "path": "notes/econ/notes/u05/economic_unit_05_national_accoun_8f1e9f.pdf",
             "size": 18536851
           },
           {
             "title": "economic-unit-05-national-accounting-part-2.pdf",
-            "path": "notes/economics/lesson-notes/unit-05-national-accounting/economic_unit_05_national_accoun_3907fe.pdf",
+            "path": "notes/econ/notes/u05/economic_unit_05_national_accoun_3907fe.pdf",
             "size": 660029
           },
           {
             "title": "unit-05-national-accounting-short-note.pdf",
-            "path": "notes/economics/short-notes/unit-05-national-accounting-short-note.pdf",
+            "path": "notes/econ/short/unit-05-national-accounting-short-note.pdf",
             "size": 514807
           },
           {
             "title": "5.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_Eco_5.2_lo.pdf",
+            "path": "notes/econ/ethak/unit_05_Eco_5.2_lo.pdf",
             "size": 105964,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32712"
           },
           {
             "title": "5.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_Eco_5.1_lo.pdf",
+            "path": "notes/econ/ethak/unit_05_Eco_5.1_lo.pdf",
             "size": 110931,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32709"
           },
           {
             "title": "5.4 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_Eco_5.4_lo.pdf",
+            "path": "notes/econ/ethak/unit_05_Eco_5.4_lo.pdf",
             "size": 194541,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32717"
           },
           {
             "title": "5.6 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_Eco_5.6_lo.pdf",
+            "path": "notes/econ/ethak/unit_05_Eco_5.6_lo.pdf",
             "size": 113370,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32723"
           },
           {
             "title": "5.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_Eco_5.3_lo.pdf",
+            "path": "notes/econ/ethak/unit_05_Eco_5.3_lo.pdf",
             "size": 112411,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32714"
           },
           {
             "title": "5.5 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_Eco_5.5_lo.pdf",
+            "path": "notes/econ/ethak/unit_05_Eco_5.5_lo.pdf",
             "size": 105583,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32720"
           },
           {
             "title": "5.7 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_Eco_5.7_lo.pdf",
+            "path": "notes/econ/ethak/unit_05_Eco_5.7_lo.pdf",
             "size": 108283,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32726"
           },
           {
             "title": "ජාතික ගිණුම් සකස් කිරීම (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_5_Word.pdf",
+            "path": "notes/econ/ethak/unit_05_5_Word.pdf",
             "size": 528707,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32735"
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_5_1.pdf",
+            "path": "notes/econ/ethak/unit_05_5_1.pdf",
             "size": 134611,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32737"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_5_3.pdf",
+            "path": "notes/econ/ethak/unit_05_5_3.pdf",
             "size": 477966,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32739"
           },
           {
             "title": "ජාතික ගිණුම් සකස් කිරීම (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_5_PPT.pdf",
+            "path": "notes/econ/ethak/unit_05_5_PPT.pdf",
             "size": 1199453,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32734"
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_5.pdf",
+            "path": "notes/econ/ethak/unit_05_5.pdf",
             "size": 355965,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32736"
           },
           {
             "title": "ව්‍යුහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_05_5_2.pdf",
+            "path": "notes/econ/ethak/unit_05_5_2.pdf",
             "size": 270204,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32738"
@@ -13523,7 +13523,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-06",
         "title": "සාර්ව ආර්ථික සමතුලිතතාව (AD / AS Model)",
         "englishTitle": "Macroeconomic Equilibrium & Fiscal/Monetary Impact",
-        "guidePath": "notes/economics/master-guides/unit-06.md",
+        "guidePath": "notes/econ/mg/unit-06.md",
         "videoCount": 66,
         "videos": [
           {
@@ -13861,73 +13861,73 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "economic-unit-06-macroeconomic-equilibrium.pdf",
-            "path": "notes/economics/lesson-notes/unit-06-macroeconomic-equilibrium/economic_unit_06_macroeconomic_e_24ae6a.pdf",
+            "path": "notes/econ/notes/u06/economic_unit_06_macroeconomic_e_24ae6a.pdf",
             "size": 14688963
           },
           {
             "title": "unit-06-macro-equilibrium-short-note.pdf",
-            "path": "notes/economics/short-notes/unit-06-macro-equilibrium-short-note.pdf",
+            "path": "notes/econ/short/unit-06-macro-equilibrium-short-note.pdf",
             "size": 501761
           },
           {
             "title": "6.1 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_06_Eco_6.1_lo.pdf",
+            "path": "notes/econ/ethak/unit_06_Eco_6.1_lo.pdf",
             "size": 102610,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32740"
           },
           {
             "title": "6.1 සාර්ව ආර්ථීක සමතුලිතය හා අසමතුලිතය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_06_SAL_econ_chap_6.1.pdf",
+            "path": "notes/econ/ethak/unit_06_SAL_econ_chap_6.1.pdf",
             "size": 988622,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32741"
           },
           {
             "title": "6.2 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_06_Eco_6.2_lo.pdf",
+            "path": "notes/econ/ethak/unit_06_Eco_6.2_lo.pdf",
             "size": 117709,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32743"
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_06_6_1.pdf",
+            "path": "notes/econ/ethak/unit_06_6_1.pdf",
             "size": 140378,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32754"
           },
           {
             "title": "6.4 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_06_Eco_6.4_lo.pdf",
+            "path": "notes/econ/ethak/unit_06_Eco_6.4_lo.pdf",
             "size": 123083,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32749"
           },
           {
             "title": "6.3 ඉගෙනුම් ඵල (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_06_Eco_6.3_lo.pdf",
+            "path": "notes/econ/ethak/unit_06_Eco_6.3_lo.pdf",
             "size": 111454,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32746"
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_06_6.pdf",
+            "path": "notes/econ/ethak/unit_06_6.pdf",
             "size": 281110,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32753"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_06_6_3.pdf",
+            "path": "notes/econ/ethak/unit_06_6_3.pdf",
             "size": 443777,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32756"
           },
           {
             "title": "ව්‍යහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_06_6_2.pdf",
+            "path": "notes/econ/ethak/unit_06_6_2.pdf",
             "size": 192315,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32755"
@@ -14084,7 +14084,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-07",
         "title": "මුදල්, බැංකු පද්ධතිය සහ මිල මට්ටම්",
         "englishTitle": "Money, Commercial & Central Banking, Price Levels",
-        "guidePath": "notes/economics/master-guides/unit-07.md",
+        "guidePath": "notes/econ/mg/unit-07.md",
         "videoCount": 49,
         "videos": [
           {
@@ -14337,38 +14337,38 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "economic-unit-07-money-and-price-levels-part-1.pdf",
-            "path": "notes/economics/lesson-notes/unit-07-money-and-price-levels/economic_unit_07_money_and_price_2a9eae.pdf",
+            "path": "notes/econ/notes/u07/economic_unit_07_money_and_price_2a9eae.pdf",
             "size": 3049581
           },
           {
             "title": "economic-unit-07-money-and-price-levels-part-2.pdf",
-            "path": "notes/economics/lesson-notes/unit-07-money-and-price-levels/economic_unit_07_money_and_price_647f53.pdf",
+            "path": "notes/econ/notes/u07/economic_unit_07_money_and_price_647f53.pdf",
             "size": 3946684
           },
           {
             "title": "ව්‍යුහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_07_07_2.pdf",
+            "path": "notes/econ/ethak/unit_07_07_2.pdf",
             "size": 203400,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32775"
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_07_07_1.pdf",
+            "path": "notes/econ/ethak/unit_07_07_1.pdf",
             "size": 135177,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32774"
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_07_07.pdf",
+            "path": "notes/econ/ethak/unit_07_07.pdf",
             "size": 255158,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32773"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_07_07_3.pdf",
+            "path": "notes/econ/ethak/unit_07_07_3.pdf",
             "size": 339334,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32776"
@@ -14492,7 +14492,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-08",
         "title": "රාජ්‍ය මූල්‍යය, අයවැය සහ මූල්‍ය ප්‍රතිපත්තිය",
         "englishTitle": "Public Finance, Government Budget & Fiscal Policy",
-        "guidePath": "notes/economics/master-guides/unit-08.md",
+        "guidePath": "notes/econ/mg/unit-08.md",
         "videoCount": 42,
         "videos": [
           {
@@ -14710,59 +14710,59 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "economic-unit-08-government-economic-activities-public-finance.pdf",
-            "path": "notes/economics/lesson-notes/unit-08-public-finance/economic_unit_08_government_econ_4ae0a9.pdf",
+            "path": "notes/econ/notes/u08/economic_unit_08_government_econ_4ae0a9.pdf",
             "size": 4217865
           },
           {
             "title": "unit-08-public-finance-short-note.pdf",
-            "path": "notes/economics/short-notes/unit-08-public-finance-short-note.pdf",
+            "path": "notes/econ/short/unit-08-public-finance-short-note.pdf",
             "size": 757917
           },
           {
             "title": "8.2 ක්‍රියාකාරකම 01 (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_08_2.pdf",
+            "path": "notes/econ/ethak/unit_08_2.pdf",
             "size": 312604,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32782"
           },
           {
             "title": "8.4 ක්‍රියාකාරකම 01 (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_08_3.pdf",
+            "path": "notes/econ/ethak/unit_08_3.pdf",
             "size": 318052,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32788"
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_08_8_1.pdf",
+            "path": "notes/econ/ethak/unit_08_8_1.pdf",
             "size": 141357,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32796"
           },
           {
             "title": "8.1 ක්‍රියාකාරකම 01 (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_08.pdf",
+            "path": "notes/econ/ethak/unit_08.pdf",
             "size": 306686,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32779"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_08_8_3.pdf",
+            "path": "notes/econ/ethak/unit_08_8_3.pdf",
             "size": 390832,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32798"
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_08_8.pdf",
+            "path": "notes/econ/ethak/unit_08_8.pdf",
             "size": 281633,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32795"
           },
           {
             "title": "ව්‍යුහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_08_8_2.pdf",
+            "path": "notes/econ/ethak/unit_08_8_2.pdf",
             "size": 193389,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32797"
@@ -14872,7 +14872,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-09",
         "title": "ජාත්‍යන්තර වෙළඳාම සහ සාපේක්ෂ වාසි න්‍යාය",
         "englishTitle": "International Trade Theory & Trade Policy",
-        "guidePath": "notes/economics/master-guides/unit-09.md",
+        "guidePath": "notes/econ/mg/unit-09.md",
         "videoCount": 35,
         "videos": [
           {
@@ -15055,38 +15055,38 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "economic-unit-09-foreign-trade.pdf",
-            "path": "notes/economics/lesson-notes/unit-09-foreign-trade/economic-unit-09-foreign-trade.pdf",
+            "path": "notes/econ/notes/u09/economic-unit-09-foreign-trade.pdf",
             "size": 2702792
           },
           {
             "title": "unit-09-foreign-trade-short-note.pdf",
-            "path": "notes/economics/short-notes/unit-09-foreign-trade-short-note.pdf",
+            "path": "notes/econ/short/unit-09-foreign-trade-short-note.pdf",
             "size": 636388
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_09_09.pdf",
+            "path": "notes/econ/ethak/unit_09_09.pdf",
             "size": 276273,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32807"
           },
           {
             "title": "ව්‍යුහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_09_09_2.pdf",
+            "path": "notes/econ/ethak/unit_09_09_2.pdf",
             "size": 199362,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32809"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_09_09_3.pdf",
+            "path": "notes/econ/ethak/unit_09_09_3.pdf",
             "size": 319071,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32810"
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_09_09_1.pdf",
+            "path": "notes/econ/ethak/unit_09_09_1.pdf",
             "size": 130869,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32808"
@@ -15118,7 +15118,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-10",
         "title": "ගෙවුම් ශේෂය සහ විදේශ විනිමය අනුපාත",
         "englishTitle": "Balance of Payments & Foreign Exchange Rates",
-        "guidePath": "notes/economics/master-guides/unit-10.md",
+        "guidePath": "notes/econ/mg/unit-10.md",
         "videoCount": 48,
         "videos": [
           {
@@ -15366,47 +15366,47 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "economic-unit-10-foreign-finance.pdf",
-            "path": "notes/economics/lesson-notes/unit-10-foreign-finance/economic-unit-10-foreign-finance.pdf",
+            "path": "notes/econ/notes/u10/economic-unit-10-foreign-finance.pdf",
             "size": 2333695
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_10_10.pdf",
+            "path": "notes/econ/ethak/unit_10_10.pdf",
             "size": 224251,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32824"
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_10_10_1.pdf",
+            "path": "notes/econ/ethak/unit_10_10_1.pdf",
             "size": 120155,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32825"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_10_10_2.pdf",
+            "path": "notes/econ/ethak/unit_10_10_2.pdf",
             "size": 177480,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32827"
           },
           {
             "title": "ව්‍යුහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_10_10_3.pdf",
+            "path": "notes/econ/ethak/unit_10_10_3.pdf",
             "size": 183624,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32826"
           },
           {
             "title": "විදේශ මූල්_ය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_10_10_Word.pdf",
+            "path": "notes/econ/ethak/unit_10_10_Word.pdf",
             "size": 661303,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32822"
           },
           {
             "title": "විදේශ මූල්_ය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_10_10_PPT.pdf",
+            "path": "notes/econ/ethak/unit_10_10_PPT.pdf",
             "size": 311708,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32823"
@@ -15446,7 +15446,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-11",
         "title": "ශ්‍රී ලංකා ආර්ථිකය සහ ව්‍යුහාත්මක පරිවර්තනය",
         "englishTitle": "Sri Lankan Economy & Structural Challenges",
-        "guidePath": "notes/economics/master-guides/unit-11.md",
+        "guidePath": "notes/econ/mg/unit-11.md",
         "videoCount": 41,
         "videos": [
           {
@@ -15659,47 +15659,47 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "economic-unit-11-contemporary-data.pdf",
-            "path": "notes/economics/lesson-notes/unit-11-contemporary-data/economic_unit_11_contemporary_data.pdf",
+            "path": "notes/econ/notes/u11/economic_unit_11_contemporary_data.pdf",
             "size": 485134
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_11_11.pdf",
+            "path": "notes/econ/ethak/unit_11_11.pdf",
             "size": 341066,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32840"
           },
           {
             "title": "සංවර්ධනයේ විවිධත්වය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_11_11_Word.pdf",
+            "path": "notes/econ/ethak/unit_11_11_Word.pdf",
             "size": 1309842,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32838"
           },
           {
             "title": "ව්‍යුහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_11_11_3.pdf",
+            "path": "notes/econ/ethak/unit_11_11_3.pdf",
             "size": 186053,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32842"
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_11_11_1.pdf",
+            "path": "notes/econ/ethak/unit_11_11_1.pdf",
             "size": 143095,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32841"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_11_11_2.pdf",
+            "path": "notes/econ/ethak/unit_11_11_2.pdf",
             "size": 444716,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32843"
           },
           {
             "title": "සංවර්ධනයේ විවිධත්වය (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_11_11_PPT.pdf",
+            "path": "notes/econ/ethak/unit_11_11_PPT.pdf",
             "size": 5734576,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32839"
@@ -15739,7 +15739,7 @@ export const CURRICULUM_DATA = {
         "unitCode": "unit-12",
         "title": "තිරසර ආර්ථික සංවර්ධනය සහ ප්‍රතිපත්ති",
         "englishTitle": "Sustainable Economic Development & Growth",
-        "guidePath": "notes/economics/master-guides/unit-12.md",
+        "guidePath": "notes/econ/mg/unit-12.md",
         "videoCount": 18,
         "videos": [
           {
@@ -15837,47 +15837,47 @@ export const CURRICULUM_DATA = {
         "pdfs": [
           {
             "title": "economic-unit-12-population-structure-and-policies.pdf",
-            "path": "notes/economics/lesson-notes/unit-12-population-structure-policies/economic_unit_12_population_stru_e2c17b.pdf",
+            "path": "notes/econ/notes/u12/economic_unit_12_population_stru_e2c17b.pdf",
             "size": 509259
           },
           {
             "title": "බහුවරණ පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_12_12_1.pdf",
+            "path": "notes/econ/ethak/unit_12_12_1.pdf",
             "size": 135589,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32851"
           },
           {
             "title": "ව්‍යුහගත ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_12_12_2.pdf",
+            "path": "notes/econ/ethak/unit_12_12_2.pdf",
             "size": 153147,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32852"
           },
           {
             "title": "බහුවරණ ප්‍රශ්න - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_12_12.pdf",
+            "path": "notes/econ/ethak/unit_12_12.pdf",
             "size": 280761,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32850"
           },
           {
             "title": "ව්‍යුහගත පිළිතුරු - වාණිජ හා ව්‍යාපාර අධ්‍යයන ශාඛාව - අධ්‍යාපන අමාත්‍යාංශය - 2023(2024) (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_12_12_3.pdf",
+            "path": "notes/econ/ethak/unit_12_12_3.pdf",
             "size": 334482,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32853"
           },
           {
             "title": "ශ්_රී ලංකාවේ ආර්ථික ව්_යුහය හා ප්_රතිපත්ති (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_12_12_Word.pdf",
+            "path": "notes/econ/ethak/unit_12_12_Word.pdf",
             "size": 1318694,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32849"
           },
           {
             "title": "ශ්_රී ලංකාවේ ආර්ථික ව්_යුහය හා ප්_රතිපත්ති (MOE e-Thaksalawa)",
-            "path": "notes/economics/ethaksalawa/unit_12_12_PPT.pdf",
+            "path": "notes/econ/ethak/unit_12_12_PPT.pdf",
             "size": 4904150,
             "isEthaksalawa": true,
             "sourceUrl": "https://e-thaksalawa.moe.gov.lk/lcms/mod/resource/view.php?id=32848"

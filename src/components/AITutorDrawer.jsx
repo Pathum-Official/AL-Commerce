@@ -13,7 +13,9 @@ import {
   Volume2,
   Sparkles,
   ExternalLink,
-  Cpu
+  Cpu,
+  Plus,
+  RotateCcw
 } from 'lucide-react';
 import { askCommerceTutor, evaluateHandwrittenAnswer, getActiveEngineStatus } from '../services/geminiService';
 import { renderMarkdownWithMath } from '../utils/markdownRenderer';
@@ -293,6 +295,26 @@ ${evaluation.modelAnswer || ''}
 
   const engineStatus = getActiveEngineStatus();
 
+  const handleNewChat = () => {
+    setMessages([
+      {
+        role: 'assistant',
+        text: `ආයුබෝවන්! මම ඔබගේ **PTM Commerce AI Master Tutor**.
+      
+අ.පො.ස. උසස් පෙළ වාණිජ විෂය ධාරාවේ (**ගිණුම්කරණය, ව්‍යාපාර අධ්‍යයනය, ආර්ථික විද්‍යාව**) ඕනෑම සිද්ධාන්ත ගැටලුවක්, ද්විත්ව සටහන්, PESTEL සාධක, PPC වක්‍ර හෝ විභාග ප්‍රශ්න මා වෙත යොමු කරන්න.
+
+✨ **ප්‍රධාන පහසුකම්:**
+1. 🎮 **Interactive Simulations & Frames:** සංකල්ප තේරුම් ගැනීමට සජීවී HTML Simulation එකක් හෝ Quiz එකක් සාදන්න ඉල්ලන්න.
+2. 🔊 **Synchronized Voice Teacher:** මගේ ඕනෑම පිළිතුරක් සිංහලෙන් හඬ ආධාරයෙන් (Listen) අසන්න.
+3. 📎 **ගොනු විශ්ලේෂණය:** ඔබගේ Notes, Past Papers හෝ අතින් ලියූ පිළිතුරු Photos මා වෙත Attach කර නිල Marking Scheme එකට අනුව ලකුණු ලබාගන්න!`,
+        timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
+      }
+    ]);
+    setAttachedFiles([]);
+    setInputVal('');
+    voiceHighlighter.stop();
+  };
+
   if (!isOpen) return null;
 
   return (
@@ -313,37 +335,19 @@ ${evaluation.modelAnswer || ''}
             </div>
           </div>
 
-          <button className="btn-drawer-close" onClick={onClose}>
-            <X size={20} />
-          </button>
-        </div>
-
-        {/* Suggestion Chips */}
-        <div className="ai-chips-scroll no-scrollbar">
-          <button 
-            className="ai-chip"
-            onClick={() => handleSendMessage("ගිණුම්කරණ සමීකරණය (A = E + L) සහ ද්විත්ව සටහන් රීතිය සරලව පහදන්න.")}
-          >
-            Accounting Equation (A=E+L)
-          </button>
-          <button 
-            className="ai-chip"
-            onClick={() => handleSendMessage("මට CVP (පිරිවැය-ප්‍රමාණ-ලාභ) විශ්ලේෂණය තේරුම් ගන්න කුඩා Interactive HTML Simulation එකක් හදල දෙන්න.")}
-          >
-            🎮 Build CVP Simulation Frame
-          </button>
-          <button 
-            className="ai-chip"
-            onClick={() => handleSendMessage("PESTEL සාර්ව පරිසර සාධක 6 උදාහරණ සහිතව විස්තර කරන්න.")}
-          >
-            PESTEL Environmental Analysis
-          </button>
-          <button 
-            className="ai-chip"
-            onClick={() => handleSendMessage("නිෂ්පාදන ශක්‍යතා වක්‍රය (PPC) සහ අවස්ථා පිරිවැය පැහැදිලි කරන්න.")}
-          >
-            PPC Curve & Opportunity Cost
-          </button>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <button 
+              className="btn-new-chat-header" 
+              onClick={handleNewChat} 
+              title="නව සංවාදයක් අරඹන්න (Start New Chat)"
+            >
+              <Plus size={15} />
+              <span>New Chat</span>
+            </button>
+            <button className="btn-drawer-close" onClick={onClose} title="Close">
+              <X size={20} />
+            </button>
+          </div>
         </div>
 
         {/* Chat Messages Body */}

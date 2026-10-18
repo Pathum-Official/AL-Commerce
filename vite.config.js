@@ -14,12 +14,12 @@ export default defineConfig({
           if (rawUrl.startsWith('/past-papers/') || rawUrl.startsWith('/notes/') || rawUrl.startsWith('/syllabuses/')) {
             let filePath = path.join(process.cwd(), rawUrl);
 
-            // If file doesn't exist directly, check alternative master-guides folder
+            // If file doesn't exist directly, check alternative master-guides (mg) folder
             if (!fs.existsSync(filePath)) {
               const parts = rawUrl.split('/').filter(Boolean);
               if (parts[0] === 'notes' && parts.length === 3 && parts[2].endsWith('.md')) {
-                // e.g. /notes/accounting/unit-02.md -> /notes/accounting/master-guides/unit-02.md
-                const altPath = path.join(process.cwd(), 'notes', parts[1], 'master-guides', parts[2]);
+                const sub = parts[1] === 'business-studies' ? 'bs' : (parts[1] === 'accounting' ? 'acc' : (parts[1] === 'economics' ? 'econ' : parts[1]));
+                const altPath = path.join(process.cwd(), 'notes', sub, 'mg', parts[2]);
                 if (fs.existsSync(altPath)) {
                   filePath = altPath;
                 }

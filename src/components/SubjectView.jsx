@@ -32,10 +32,10 @@ export default function SubjectView({
   // Subject-level master files
   const syllabusPath = `syllabuses/${subjectId}-syllabus.pdf`;
   const fullBookPath = subjectId === 'accounting' 
-    ? 'notes/accounting/short-notes/accounting-full-short-note.pdf'
+    ? 'notes/acc/short/accounting-full-short-note.pdf'
     : (subjectId === 'business-studies' 
-        ? 'notes/business-studies/short-notes/bs-full-short-note.pdf'
-        : 'notes/economics/short-notes/econ-full-short-note.pdf');
+        ? 'notes/bs/short/bs-full-short-note.pdf'
+        : 'notes/econ/short/econ-full-short-note.pdf');
 
   // Extract all Sinhala past papers for this specific subject (EXCLUDE English & Tamil)
   const subjectPapers = (catalog || []).filter(item => {

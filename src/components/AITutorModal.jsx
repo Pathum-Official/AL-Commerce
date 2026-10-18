@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { X, Send, Bot, User, Sparkles, Volume2, ExternalLink } from 'lucide-react';
+import { X, Send, Bot, User, Sparkles, Volume2, ExternalLink, Plus } from 'lucide-react';
 import { sound } from '../services/audioEngine';
 import { askCommerceTutor, getActiveEngineStatus } from '../services/geminiService';
 import { renderMarkdownWithMath } from '../utils/markdownRenderer';
@@ -100,31 +100,28 @@ export default function AITutorModal({ currentSubjectName, onClose }) {
               </p>
             </div>
           </div>
-          <button onClick={onClose} style={{ background: 'none', border: 'none', color: '#94a3b8', cursor: 'pointer' }}>
-            <X size={24} />
-          </button>
-        </div>
-
-        {/* Quick Suggestion Chips */}
-        <div style={{ padding: '12px 24px', background: 'rgba(255,255,255,0.02)', borderBottom: '1px solid rgba(255,255,255,0.06)', display: 'flex', gap: '8px', overflowX: 'auto', whiteSpace: 'nowrap' }}>
-          {quickPrompts.map((q, idx) => (
-            <button
-              key={idx}
-              onClick={() => handleSend(q)}
-              style={{
-                background: 'rgba(255,255,255,0.06)',
-                border: '1px solid rgba(255,255,255,0.1)',
-                color: '#cbd5e1',
-                padding: '6px 14px',
-                borderRadius: '999px',
-                fontSize: '0.78rem',
-                cursor: 'pointer',
-                fontFamily: 'var(--font-sinhala)'
+          <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+            <button 
+              className="btn-new-chat-header" 
+              onClick={() => {
+                setMessages([
+                  {
+                    role: 'assistant',
+                    text: `ආයුබෝවන්! මම ඔබගේ **PTM Commerce AI Master Tutor**. ${currentSubjectName || 'වාණිජ විෂයයන්'} සම්බන්ධයෙන් ඕනෑම අපැහැදිලි සිද්ධාන්තයක්, ගිණුම්කරණ ගැටළුවක් හෝ විභාග උපදෙසක් මෙතැනින් විමසන්න!`
+                  }
+                ]);
+                setInputText('');
+                voiceHighlighter.stop();
               }}
+              title="නව සංවාදයක් අරඹන්න (New Chat)"
             >
-              💡 {q}
+              <Plus size={15} />
+              <span>New Chat</span>
             </button>
-          ))}
+            <button onClick={onClose} style={{ background: 'none', border: 'none', color: '#94a3b8', cursor: 'pointer' }}>
+              <X size={24} />
+            </button>
+          </div>
         </div>
 
         {/* Chat Messages Log */}

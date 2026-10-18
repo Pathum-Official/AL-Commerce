@@ -35,16 +35,15 @@ export const LIBRARY_DATA = {
   ],
 
   notes: [
-    { id: "n-acc-01", subject: "accounting", type: "Lesson Note", title: "ගිණුම්කරණය - 01 පාඩම සම්පූර්ණ නිබන්ධනය", path: "/notes/accounting/lesson-notes/Acc-Lesson-01.pdf" },
-    { id: "n-acc-02", subject: "accounting", type: "Lesson Note", title: "ගිණුම්කරණ සමීකරණය & ද්විත්ව සටහන්", path: "/notes/accounting/lesson-notes/Acc-Lesson-02.pdf" },
-    { id: "n-acc-sn", subject: "accounting", type: "Short Note", title: "ගිණුම්කරණය A+ විභාග කෙටි සටහන් පොත", path: "/notes/accounting/short-notes/Acc-Short-Note.pdf" },
+    { id: "n-acc-01", subject: "accounting", type: "Full Guide", title: "ගිණුම්කරණය A+ පූර්ණ කෙටි සටහන් පොත", path: "/notes/acc/short/accounting-full-short-note.pdf" },
+    { id: "n-acc-02", subject: "accounting", type: "Quick Revision", title: "ගිණුම්කරණ සමීකරණය & ද්විත්ව සටහන්", path: "/notes/acc/short/double-entry-system-short-note.pdf" },
+    { id: "n-acc-sn", subject: "accounting", type: "Short Note", title: "ගිණුම්කරණය කඩිනම් පුනරීක්ෂණ කෙටි සටහන්", path: "/notes/acc/short/accounting-quick-revision-short-note.pdf" },
 
-    { id: "n-bs-01", subject: "business", type: "Lesson Note", title: "ව්‍යාපාර පසුබිම & පරිසරය 1-2 පාඩම්", path: "/notes/business-studies/lesson-notes/BS-Lesson-01.pdf" },
-    { id: "n-bs-cw", subject: "business", type: "Lesson Note", title: "ClassWork ව්‍යාපාර අධ්‍යයන සම්පූර්ණ කොටස් 115", path: "/notes/business-studies/lesson-notes/part-01.pdf" },
-    { id: "n-bs-sn", subject: "business", type: "Short Note", title: "ව්‍යාපාර අධ්‍යයනය A+ සම්පූර්ණ කෙටි සටහන්", path: "/notes/business-studies/short-notes/BS-Short-Note.pdf" },
+    { id: "n-bs-01", subject: "business", type: "Full Guide", title: "ව්‍යාපාර අධ්‍යයනය A+ සම්පූර්ණ කෙටි සටහන් පොත", path: "/notes/bs/short/bs-full-short-note.pdf" },
+    { id: "n-bs-sn", subject: "business", type: "Short Note", title: "ව්‍යාපාර පසුබිම & පරිසරය ඒකක සටහන්", path: "/notes/bs/guides/al_business_studies_complete_res_869313.pdf" },
 
-    { id: "n-econ-01", subject: "economics", type: "Lesson Note", title: "ආර්ථික විද්‍යාව 1 වන ඒකකය - මූලික සංකල්ප", path: "/notes/economics/lesson-notes/Econ-Lesson-01.pdf" },
-    { id: "n-econ-02", subject: "economics", type: "Lesson Note", title: "ආර්ථික විද්‍යාව 2 වන ඒකකය - මිල යාන්ත්‍රණය", path: "/notes/economics/lesson-notes/Econ-Lesson-02.pdf" },
-    { id: "n-econ-sn", subject: "economics", type: "Short Note", title: "ආර්ථික විද්‍යාව A+ සුපිරි කෙටි සටහන් පොත", path: "/notes/economics/short-notes/Econ-Short-Note.pdf" }
+    { id: "n-econ-01", subject: "economics", type: "Full Guide", title: "ආර්ථික විද්‍යාව A+ සුපිරි කෙටි සටහන් පොත 1", path: "/notes/econ/short/econ-full-short-note.pdf" },
+    { id: "n-econ-02", subject: "economics", type: "Full Guide", title: "ආර්ථික විද්‍යාව A+ සුපිරි කෙටි සටහන් පොත 2", path: "/notes/econ/short/econ-short-note-book-2.pdf" },
+    { id: "n-econ-sn", subject: "economics", type: "Resource Guide", title: "ආර්ථික විද්‍යාව සම්පූර්ණ සම්පත් මාර්ගෝපදේශය", path: "/notes/econ/guides/al-economics-complete-resource-guide-2026.pdf" }
   ]
 };

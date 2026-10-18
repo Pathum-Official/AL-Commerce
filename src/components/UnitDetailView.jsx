@@ -73,7 +73,8 @@ export default function UnitDetailView({
     let isMounted = true;
     setIsLoadingGuide(true);
     
-    const rawPath = unit.guidePath || `notes/${subject.id}/master-guides/unit-${String(unit.unitNumber).padStart(2, '0')}.md`;
+    const subFolder = subject.id === 'business-studies' ? 'bs' : (subject.id === 'accounting' ? 'acc' : 'econ');
+    const rawPath = unit.guidePath || `notes/${subFolder}/mg/unit-${String(unit.unitNumber).padStart(2, '0')}.md`;
     const cleanGuidePath = rawPath.startsWith('/') ? rawPath : `/${rawPath}`;
     
     fetch(cleanGuidePath)

@@ -605,11 +605,11 @@ export function getPdfSummary(pdf, context = {}) {
   let subject = 'accounting';
   if (context.subject) {
     subject = typeof context.subject === 'string' ? context.subject : (context.subject.id || 'accounting');
-  } else if (combined.includes('business') || combined.includes('bs-') || combined.includes('notes/business')) {
+  } else if (combined.includes('business') || combined.includes('bs-') || combined.includes('notes/business') || combined.includes('notes/bs/')) {
     subject = 'business-studies';
-  } else if (combined.includes('econ') || combined.includes('notes/economics')) {
+  } else if (combined.includes('econ') || combined.includes('notes/economics') || combined.includes('notes/econ/')) {
     subject = 'economics';
-  } else if (combined.includes('account') || combined.includes('acc-') || combined.includes('notes/accounting')) {
+  } else if (combined.includes('account') || combined.includes('acc-') || combined.includes('notes/accounting') || combined.includes('notes/acc/')) {
     subject = 'accounting';
   }
 
