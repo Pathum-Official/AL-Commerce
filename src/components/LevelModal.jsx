@@ -526,7 +526,7 @@ export default function LevelModal({
                           ඔබ අතින් ලියූ පිළිතුරු පත්‍රයේ ඡායාරූපය මෙතැනට Drag කරන්න හෝ තෝරන්න
                         </h5>
                         <p style={{ color: '#94a3b8', fontSize: '0.78rem' }}>
-                          JPG, PNG සහාය දක්වයි • Gemini Multimodal Vision මගින් කියවනු ලැබේ
+                          JPG, PNG සහාය දක්වයි • PTM AI Multimodal Vision මගින් කියවනු ලැබේ
                         </p>
                       </div>
                     )}

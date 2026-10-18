@@ -93,7 +93,7 @@ export default function AITutorModal({ currentSubjectName, onClose }) {
             </div>
             <div>
               <h3 style={{ fontSize: '1.2rem', fontWeight: 800, color: '#fff' }}>
-                A/L Commerce AI Master Tutor
+                PTM Commerce AI Master Tutor
               </h3>
               <p style={{ fontSize: '0.78rem', color: '#94a3b8' }}>
                 <span className="online-indicator"></span> {engineStatus.model} • Synchronized Voice & Interactive Simulation Engine

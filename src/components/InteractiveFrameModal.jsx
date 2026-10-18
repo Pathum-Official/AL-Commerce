@@ -83,7 +83,7 @@ export default function InteractiveFrameModal({
     };
 
     return (
-        <div className="modal-backdrop" onClick={onClose} style={{ zIndex: 99999 }}>
+        <div className={`interactive-frame-backdrop ${isFullscreen ? 'is-fullscreen' : ''}`} onClick={onClose}>
             <div 
                 className={`interactive-frame-box ${isFullscreen ? 'fullscreen' : ''}`}
                 onClick={(e) => e.stopPropagation()}

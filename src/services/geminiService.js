@@ -47,7 +47,9 @@ let currentModelIndex = 0;
 
 export function getActiveEngineStatus() {
     return {
-        model: MODELS[currentModelIndex],
+        model: "PTM Commerce Neural Core v3.6",
+        engineName: "PTM Commerce AI Engine",
+        status: "Ultra-Fast Multi-Engine Core • Ready",
         activeKeyIndex: currentKeyIndex,
         totalKeys: API_KEYS.length,
         modelsCount: MODELS.length

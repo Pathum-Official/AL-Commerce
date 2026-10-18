@@ -305,10 +305,10 @@ ${evaluation.modelAnswer || ''}
               <Bot size={22} color="#ffffff" />
             </div>
             <div>
-              <h3 className="ai-name">A/L Commerce AI Tutor</h3>
+              <h3 className="ai-name">PTM Commerce AI Tutor</h3>
               <p className="ai-status">
                 <span className="online-indicator"></span> 
-                {engineStatus.model} • 4-Model Fallback Engine • Ready
+                {engineStatus.model} • Ready
               </p>
             </div>
           </div>
@@ -439,7 +439,7 @@ ${evaluation.modelAnswer || ''}
                 <Bot size={16} />
               </div>
               <div className="chat-bubble-content loading-bubble">
-                <span className="dot-pulse">Analyzing Documents & Thinking with Gemini 3.6...</span>
+                <span className="dot-pulse">Analyzing Documents & Thinking with PTM Commerce AI...</span>
               </div>
             </div>
           )}
