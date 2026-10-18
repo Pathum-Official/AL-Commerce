@@ -9,7 +9,9 @@ import {
   Sparkles,
   Printer,
   Copy,
-  Check
+  Check,
+  Maximize2,
+  Globe
 } from 'lucide-react';
 import { renderMarkdownWithMath } from '../utils/markdownRenderer';
 
@@ -28,6 +30,7 @@ export default function PdfViewerModal({
   const [renderedHtml, setRenderedHtml] = useState('');
   const [isLoadingMd, setIsLoadingMd] = useState(isMarkdown);
   const [copied, setCopied] = useState(false);
+  const [useGoogleViewer, setUseGoogleViewer] = useState(false);
 
   useEffect(() => {
     if (isMarkdown) {
@@ -42,7 +45,7 @@ export default function PdfViewerModal({
           setRenderedHtml(renderMarkdownWithMath(text));
           setIsLoadingMd(false);
         })
-        .catch(err => {
+        .catch(() => {
           const fallback = `# ${pdfTitle || 'Lesson Note'}\n\nCould not load file from \`${cleanUrl}\`. Please ensure the file exists.`;
           setMdContent(fallback);
           setRenderedHtml(renderMarkdownWithMath(fallback));
@@ -60,6 +63,9 @@ export default function PdfViewerModal({
   const handlePrint = () => {
     window.print();
   };
+
+  const fullOriginUrl = typeof window !== 'undefined' ? `${window.location.origin}${cleanUrl}` : cleanUrl;
+  const googleViewerUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(fullOriginUrl)}&embedded=true`;
 
   return (
     <div className="ptm-modal-backdrop" onClick={onClose}>
@@ -115,12 +121,22 @@ export default function PdfViewerModal({
               </button>
             )}
 
+            {!isMarkdown && (
+              <button 
+                className={`action-btn-sm ${useGoogleViewer ? 'active' : ''}`}
+                onClick={() => setUseGoogleViewer(prev => !prev)}
+                title="Google Docs Viewer මගින් බලන්න"
+              >
+                <Globe size={15} /> {useGoogleViewer ? 'Direct View' : 'Cloud View'}
+              </button>
+            )}
+
             <a 
               href={cleanUrl} 
               target="_blank" 
               rel="noopener noreferrer" 
               className="action-btn-sm"
-              title="Open in new window"
+              title="Open in new window / Full screen"
             >
               <ExternalLink size={15} /> Open External
             </a>
@@ -159,11 +175,32 @@ export default function PdfViewerModal({
           </div>
         ) : (
           <div className="modal-pdf-container">
-            <iframe 
-              src={cleanUrl} 
-              title={pdfTitle} 
+            <div className="pdf-viewer-bar-tip">
+              <span>💡 Preview එක ක්‍රියාත්මක නොවන්නේ නම් </span>
+              <a href={cleanUrl} target="_blank" rel="noopener noreferrer" className="link-fullscreen-open">
+                <Maximize2 size={12} /> Open Full Screen (New Window)
+              </a>
+              <span> හෝ </span>
+              <button 
+                type="button" 
+                className="btn-text-action" 
+                onClick={() => setUseGoogleViewer(prev => !prev)}
+              >
+                {useGoogleViewer ? 'Direct PDF Switch' : 'Cloud Docs Viewer Switch'}
+              </button>
+            </div>
+            
+            <object 
+              data={useGoogleViewer ? googleViewerUrl : `${cleanUrl}#toolbar=1&navpanes=1`} 
+              type="application/pdf"
               className="pdf-iframe-view"
-            />
+            >
+              <iframe 
+                src={useGoogleViewer ? googleViewerUrl : cleanUrl} 
+                title={pdfTitle} 
+                className="pdf-iframe-view"
+              />
+            </object>
           </div>
         )}
       </div>

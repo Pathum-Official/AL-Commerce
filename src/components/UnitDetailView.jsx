@@ -544,7 +544,7 @@ export default function UnitDetailView({
                             View in App
                           </button>
                           <a 
-                            href={`/${pdf.path}`} 
+                            href={pdf.path.startsWith('/') ? pdf.path : `/${pdf.path}`} 
                             download 
                             className="btn-download-pdf"
                             title="Download PDF"
