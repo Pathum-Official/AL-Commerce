@@ -9,10 +9,16 @@ import {
   FileImage,
   FileCode,
   Search,
-  BookOpen
+  BookOpen,
+  Volume2,
+  Sparkles,
+  ExternalLink,
+  Cpu
 } from 'lucide-react';
-import { askCommerceTutor, evaluateHandwrittenAnswer } from '../services/geminiService';
+import { askCommerceTutor, evaluateHandwrittenAnswer, getActiveEngineStatus } from '../services/geminiService';
 import { renderMarkdownWithMath } from '../utils/markdownRenderer';
+import { voiceHighlighter } from '../services/voiceHighlighterService';
+import InteractiveFrameModal from './InteractiveFrameModal';
 
 export default function AITutorDrawer({
   isOpen,
@@ -23,11 +29,14 @@ export default function AITutorDrawer({
   const [messages, setMessages] = useState([
     {
       role: 'assistant',
-      text: `ආයුබෝවන්! මම ඔබගේ **PTM Prime AI අධ්‍යයන සහායකයා (Commerce AI Tutor)**.
+      text: `ආයුබෝවන්! මම ඔබගේ **A/L Commerce AI Master Tutor**.
       
 අ.පො.ස. උසස් පෙළ වාණිජ විෂය ධාරාවේ (**ගිණුම්කරණය, ව්‍යාපාර අධ්‍යයනය, ආර්ථික විද්‍යාව**) ඕනෑම සිද්ධාන්ත ගැටලුවක්, ද්විත්ව සටහන්, PESTEL සාධක, PPC වක්‍ර හෝ විභාග ප්‍රශ්න මා වෙත යොමු කරන්න.
 
-📎 **ගොනු ඇමුණුම් (File Attachments):** ඔබේ පරිගණකයෙන් / දුරකතනයෙන් ඕනෑම **PDF, Notes, Images (අත්අකුරු පිළිතුරු)** හෝ වෙබ් අඩවියේ ඇති විෂය නිර්දේශ/ප්‍රශ්න පත්‍ර මා වෙත Attach කර ප්‍රශ්න අසන්න!`,
+✨ **නව විශේෂාංග (New Superpowers):**
+1. 🎮 **Interactive Simulations & Frames:** මගෙන් ඕනෑම සංකල්පයකට අන්තර්ක්‍රියාකාරී Quiz, Mind Map හෝ HTML Simulation එකක් හදන්න ඉල්ලන්න. එය යෙදුම තුලම සජීවීව ක්‍රියාත්මක වේ!
+2. 🔊 **Synchronized Voice Teacher:** මගේ ඕනෑම පිළිතුරක් සිංහලෙන් හඬ ආධාරයෙන් (Listen) අසන්න.
+3. 📎 **ගොනු විශ්ලේෂණය:** ඔබගේ Notes, Past Papers හෝ අතින් ලියූ පිළිතුරු Photos මා වෙත Attach කර නිල Marking Scheme එකට අනුව ලකුණු ලබාගන්න!`,
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     }
   ]);
@@ -37,6 +46,7 @@ export default function AITutorDrawer({
   const [isRepoModalOpen, setIsRepoModalOpen] = useState(false);
   const [repoSearchQuery, setRepoSearchQuery] = useState('');
   const [isLoading, setIsLoading] = useState(false);
+  const [activeInteractivePage, setActiveInteractivePage] = useState(null);
 
   const messagesEndRef = useRef(null);
   const fileInputRef = useRef(null);
@@ -50,6 +60,26 @@ export default function AITutorDrawer({
       setInputVal(`මට "${initialTopic}" පාඩමට අදාළ A/L විභාගයේදී අසන ප්‍රධාන කරුණු, ද්විත්ව සටහන්/සංකල්ප සහ ලකුණු ලබා ගැනීමේ උපදෙස් පැහැදිලි කරන්න.`);
     }
   }, [initialTopic, isOpen]);
+
+  // Helper to extract <temp_page>...</temp_page> tags from assistant text
+  const parseTempPages = (text) => {
+    if (!text) return { cleanText: '', tempPages: [] };
+    const tempPages = [];
+    const regex = /<temp_page\s+type="([^"]+)"\s+title="([^"]+)">([\s\S]*?)<\/temp_page>/g;
+    let match;
+    
+    while ((match = regex.exec(text)) !== null) {
+      tempPages.push({
+        id: 'page_' + Math.random().toString(36).substr(2, 9),
+        type: match[1],
+        title: match[2],
+        content: match[3].trim()
+      });
+    }
+
+    const cleanText = text.replace(regex, '').trim();
+    return { cleanText, tempPages };
+  };
 
   // Handle local file selection from PC / Mobile device
   const handleLocalFileSelect = (e) => {
@@ -111,7 +141,6 @@ export default function AITutorDrawer({
     const fileName = item.path.split('/').pop();
     const ext = fileName.split('.').pop().toLowerCase();
 
-    // Check if image or pdf
     if (['pdf', 'jpg', 'jpeg', 'png'].includes(ext)) {
       try {
         const res = await fetch(`/${item.path}`);
@@ -133,7 +162,6 @@ export default function AITutorDrawer({
         };
         reader.readAsDataURL(blob);
       } catch (err) {
-        // Fallback: attach file reference as text
         setAttachedFiles(prev => [
           ...prev,
           {
@@ -145,7 +173,6 @@ export default function AITutorDrawer({
         ]);
       }
     } else {
-      // Text or markdown note
       try {
         const res = await fetch(`/${item.path}`);
         const text = await res.text();
@@ -195,7 +222,6 @@ export default function AITutorDrawer({
     setIsLoading(true);
 
     try {
-      // If student attached a handwritten answer image and asks for grading
       const imageFile = filesToSend.find(f => f.type === 'inlineData' && f.mimeType?.startsWith('image/'));
       const isGradingRequest = textToSend.toLowerCase().includes('grade') || 
                                textToSend.toLowerCase().includes('mark') || 
@@ -234,7 +260,6 @@ ${evaluation.modelAnswer || ''}
           timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
         }]);
       } else {
-        // Conversational tutor with attached files support
         const reply = await askCommerceTutor({
           question: textToSend || "කරුණාකර අමුණා ඇති ගොනුවේ අන්තර්ගතය විශ්ලේෂණය කර පැහැදිලි කරන්න.",
           subject: "A/L Commerce Stream",
@@ -258,7 +283,6 @@ ${evaluation.modelAnswer || ''}
     }
   };
 
-  // Filter catalog items for repo modal
   const filteredCatalogItems = (catalog || []).filter(item => {
     if (item.type !== 'blob') return false;
     const p = item.path.toLowerCase();
@@ -266,6 +290,8 @@ ${evaluation.modelAnswer || ''}
     if (!repoSearchQuery.trim()) return true;
     return p.includes(repoSearchQuery.toLowerCase());
   }).slice(0, 40);
+
+  const engineStatus = getActiveEngineStatus();
 
   if (!isOpen) return null;
 
@@ -279,8 +305,11 @@ ${evaluation.modelAnswer || ''}
               <Bot size={22} color="#ffffff" />
             </div>
             <div>
-              <h3 className="ai-name">PTM Prime AI Tutor</h3>
-              <p className="ai-status">Online • Full File & Document Analysis Engine</p>
+              <h3 className="ai-name">A/L Commerce AI Tutor</h3>
+              <p className="ai-status">
+                <span className="online-indicator"></span> 
+                {engineStatus.model} • 4-Model Fallback Engine • Ready
+              </p>
             </div>
           </div>
 
@@ -299,6 +328,12 @@ ${evaluation.modelAnswer || ''}
           </button>
           <button 
             className="ai-chip"
+            onClick={() => handleSendMessage("මට CVP (පිරිවැය-ප්‍රමාණ-ලාභ) විශ්ලේෂණය තේරුම් ගන්න කුඩා Interactive HTML Simulation එකක් හදල දෙන්න.")}
+          >
+            🎮 Build CVP Simulation Frame
+          </button>
+          <button 
+            className="ai-chip"
             onClick={() => handleSendMessage("PESTEL සාර්ව පරිසර සාධක 6 උදාහරණ සහිතව විස්තර කරන්න.")}
           >
             PESTEL Environmental Analysis
@@ -309,49 +344,94 @@ ${evaluation.modelAnswer || ''}
           >
             PPC Curve & Opportunity Cost
           </button>
-          <button 
-            className="ai-chip"
-            onClick={() => handleSendMessage("A/L වාණිජ විභාගයේදී A+ එකක් ගැනීමට පිළිතුරු ලිවීමේ උපක්‍රම මොනවාද?")}
-          >
-            How to Score A+ in A/L
-          </button>
         </div>
 
         {/* Chat Messages Body */}
         <div className="chat-messages-body">
-          {messages.map((msg, index) => (
-            <div key={index} className={`chat-bubble-row ${msg.role}`}>
-              {msg.role === 'assistant' && (
-                <div className="chat-avatar bot">
-                  <Bot size={16} />
-                </div>
-              )}
+          {messages.map((msg, index) => {
+            const { cleanText, tempPages } = msg.role === 'assistant' 
+              ? parseTempPages(msg.text) 
+              : { cleanText: msg.text, tempPages: [] };
 
-              <div className="chat-bubble-content">
-                {/* Render Attached Files Preview in User Message */}
-                {msg.attachments && msg.attachments.length > 0 && (
-                  <div className="msg-attachments-summary">
-                    {msg.attachments.map(att => (
-                      <span key={att.id || att.name} className="msg-att-chip">
-                        {att.mimeType?.startsWith('image/') ? (
-                          <FileImage size={13} className="text-amber-400" />
-                        ) : (
-                          <FileText size={13} className="text-blue-400" />
-                        )}
-                        <span>{att.name}</span>
-                      </span>
-                    ))}
+            return (
+              <div key={index} className={`chat-bubble-row ${msg.role}`}>
+                {msg.role === 'assistant' && (
+                  <div className="chat-avatar bot">
+                    <Bot size={16} />
                   </div>
                 )}
 
-                <div 
-                  className="bubble-markdown markdown-body"
-                  dangerouslySetInnerHTML={{ __html: renderMarkdownWithMath(msg.text) }}
-                />
-                <span className="bubble-time">{msg.timestamp}</span>
+                <div className="chat-bubble-content">
+                  {/* Render Attached Files Preview in User Message */}
+                  {msg.attachments && msg.attachments.length > 0 && (
+                    <div className="msg-attachments-summary">
+                      {msg.attachments.map(att => (
+                        <span key={att.id || att.name} className="msg-att-chip">
+                          {att.mimeType?.startsWith('image/') ? (
+                            <FileImage size={13} className="text-amber-400" />
+                          ) : (
+                            <FileText size={13} className="text-blue-400" />
+                          )}
+                          <span>{att.name}</span>
+                        </span>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Main Bubble Markdown Text */}
+                  <div 
+                    className="bubble-markdown markdown-body"
+                    dangerouslySetInnerHTML={{ __html: renderMarkdownWithMath(cleanText || msg.text) }}
+                  />
+
+                  {/* Generated Interactive Temp Pages (Simulations, Frames, Quizzes) */}
+                  {tempPages.length > 0 && (
+                    <div className="ai-temp-pages-container">
+                      {tempPages.map(page => (
+                        <div key={page.id} className="ai-temp-page-card">
+                          <div className="temp-card-left">
+                            <div className="temp-card-icon">
+                              <Sparkles size={16} className="text-amber-400" />
+                            </div>
+                            <div className="temp-card-info">
+                              <span className="temp-card-badge">
+                                {page.type === 'html' ? '🎮 Interactive App / Frame' : '📝 Deep Study Guide'}
+                              </span>
+                              <h4 className="temp-card-title">{page.title}</h4>
+                            </div>
+                          </div>
+                          <button 
+                            className="btn-launch-frame"
+                            onClick={() => setActiveInteractivePage(page)}
+                            title="Open Interactive Sandboxed Frame"
+                          >
+                            <span>විවෘත කරන්න</span>
+                            <ExternalLink size={14} />
+                          </button>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Bubble Footer Bar (Time & Read Aloud) */}
+                  <div className="bubble-footer-bar">
+                    <span className="bubble-time">{msg.timestamp}</span>
+
+                    {msg.role === 'assistant' && (
+                      <button 
+                        className="btn-speak-msg"
+                        onClick={() => voiceHighlighter.speakText(cleanText || msg.text, { lang: 'si' })}
+                        title="Listen to this explanation with AI Voice Teacher"
+                      >
+                        <Volume2 size={13} />
+                        <span>හඬින් අසන්න</span>
+                      </button>
+                    )}
+                  </div>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
 
           {isLoading && (
             <div className="chat-bubble-row assistant">
@@ -359,7 +439,7 @@ ${evaluation.modelAnswer || ''}
                 <Bot size={16} />
               </div>
               <div className="chat-bubble-content loading-bubble">
-                <span className="dot-pulse">Analyzing Documents & Thinking...</span>
+                <span className="dot-pulse">Analyzing Documents & Thinking with Gemini 3.6...</span>
               </div>
             </div>
           )}
@@ -396,7 +476,6 @@ ${evaluation.modelAnswer || ''}
 
         {/* Chat Input Bar */}
         <div className="chat-input-bar">
-          {/* Hidden Local File Input */}
           <input 
             type="file" 
             ref={fileInputRef} 
@@ -406,7 +485,6 @@ ${evaluation.modelAnswer || ''}
             style={{ display: 'none' }} 
           />
 
-          {/* Local File Upload Button (Attach from PC) */}
           <button 
             type="button"
             className="input-tool-btn"
@@ -416,7 +494,6 @@ ${evaluation.modelAnswer || ''}
             <Paperclip size={18} />
           </button>
 
-          {/* Website Catalog Attach Button */}
           <button 
             type="button"
             className="input-tool-btn"
@@ -429,7 +506,7 @@ ${evaluation.modelAnswer || ''}
           <input 
             type="text" 
             className="chat-text-input" 
-            placeholder={attachedFiles.length > 0 ? "Ask about attached documents..." : "Ask a commerce question or attach files..."}
+            placeholder={attachedFiles.length > 0 ? "Ask about attached documents..." : "Ask a question or request an interactive simulation..."}
             value={inputVal}
             onChange={(e) => setInputVal(e.target.value)}
             onKeyDown={(e) => {
@@ -508,6 +585,13 @@ ${evaluation.modelAnswer || ''}
             </div>
           </div>
         )}
+
+        {/* Interactive Frame Modal for Previewing HTML / Simulations */}
+        <InteractiveFrameModal 
+          isOpen={!!activeInteractivePage}
+          onClose={() => setActiveInteractivePage(null)}
+          pageData={activeInteractivePage}
+        />
       </div>
     </div>
   );

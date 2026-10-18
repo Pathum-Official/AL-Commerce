@@ -18,12 +18,14 @@ import {
   ChevronRight,
   Target, 
   GraduationCap,
-  Play
+  Play,
+  Volume2
 } from 'lucide-react';
 import { renderMarkdownWithMath } from '../utils/markdownRenderer';
 import InteractiveMindMapModal from './InteractiveMindMapModal';
 import UnitMCQExamView from './UnitMCQExamView';
 import { getPdfSummary } from '../data/pdfSummaries';
+import { voiceHighlighter } from '../services/voiceHighlighterService';
 
 export default function UnitDetailView({
   unit,
@@ -42,6 +44,29 @@ export default function UnitDetailView({
   const [pdfFilter, setPdfFilter] = useState('all'); // 'all' | 'ethaksalawa' | 'handouts' | 'interactive'
   const [isMindMapOpen, setIsMindMapOpen] = useState(false);
   const [expandedPdfSummaries, setExpandedPdfSummaries] = useState({});
+  const [isReadingNote, setIsReadingNote] = useState(false);
+
+  useEffect(() => {
+    return () => {
+      voiceHighlighter.stop();
+    };
+  }, []);
+
+  const handleToggleReadNote = () => {
+    if (isReadingNote) {
+      voiceHighlighter.stop();
+      setIsReadingNote(false);
+    } else {
+      const container = document.querySelector('.ptm-note-content');
+      if (container) {
+        setIsReadingNote(true);
+        voiceHighlighter.speakContainer(container, {
+          lang: 'si',
+          onComplete: () => setIsReadingNote(false)
+        });
+      }
+    }
+  };
 
   // Fetch Master Guide Markdown Content & Render with KaTeX
   useEffect(() => {
@@ -274,18 +299,28 @@ export default function UnitDetailView({
                   </span>
                   <h2 className="dedicated-module-heading">{unit.title}</h2>
                 </div>
-                <button 
-                  className="btn-add-planner-clean"
-                  onClick={() => onAddToPlanner({
-                    title: `${subject.name}: Master Unit ${unit.unitNumber} (${unit.title})`,
-                    subject: subject.name,
-                    priority: 'high'
-                  })}
-                  title="Add to Study Planner"
-                >
-                  <CalendarPlus size={15} />
-                  <span>Add to Planner</span>
-                </button>
+                <div className="note-clean-actions" style={{ display: 'flex', gap: '8px', alignItems: 'center' }}>
+                  <button 
+                    className={`btn-read-aloud-clean ${isReadingNote ? 'active' : ''}`}
+                    onClick={handleToggleReadNote}
+                    title="Smart AI Voice Teacher - Synchronized Read Aloud"
+                  >
+                    <Volume2 size={15} />
+                    <span>{isReadingNote ? 'Stop Voice' : '🔊 Listen & Learn'}</span>
+                  </button>
+                  <button 
+                    className="btn-add-planner-clean"
+                    onClick={() => onAddToPlanner({
+                      title: `${subject.name}: Master Unit ${unit.unitNumber} (${unit.title})`,
+                      subject: subject.name,
+                      priority: 'high'
+                    })}
+                    title="Add to Study Planner"
+                  >
+                    <CalendarPlus size={15} />
+                    <span>Add to Planner</span>
+                  </button>
+                </div>
               </div>
 
               <div className="master-note-card">

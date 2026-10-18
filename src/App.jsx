@@ -9,6 +9,7 @@ import PdfViewerModal from './components/PdfViewerModal';
 import AITutorDrawer from './components/AITutorDrawer';
 import StudyPlannerDrawer from './components/StudyPlannerDrawer';
 import SearchModal from './components/SearchModal';
+import VoiceReaderWidget from './components/VoiceReaderWidget';
 import { X, Smartphone } from 'lucide-react';
 import { CURRICULUM_DATA } from './data/curriculumData';
 import MASTER_CATALOG from '../commerce_catalog.json';
@@ -344,6 +345,9 @@ export default function App() {
         onOpenPdf={handleOpenPdfViewer}
         onOpenUrl={(url) => window.open(url, '_blank')}
       />
+
+      {/* Floating Synchronized Voice Reader Bar */}
+      <VoiceReaderWidget />
     </div>
   );
 }
