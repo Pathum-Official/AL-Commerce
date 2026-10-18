@@ -1,0 +1,64 @@
+{
+  "name": "A/L Commerce LMS",
+  "short_name": "AL Commerce",
+  "description": "Sri Lanka's Premier Digital Learning Platform for G.C.E. Advanced Level Commerce • Accounting, Business Studies & Economics",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#0a0f1d",
+  "theme_color": "#4f46e5",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "education",
+    "reference",
+    "productivity"
+  ],
+  "shortcuts": [
+    {
+      "name": "Accounting (ගිණුම්කරණය)",
+      "short_name": "Accounting",
+      "description": "16 Unit Guides, Videos & MCQs",
+      "url": "/?tab=accounting",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Business Studies (ව්‍යාපාර අධ්‍යයනය)",
+      "short_name": "Business",
+      "description": "18 Unit Guides, Videos & MCQs",
+      "url": "/?tab=business-studies",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Economics (ආර්ථික විද්‍යාව)",
+      "short_name": "Economics",
+      "description": "12 Unit Guides, Videos & MCQs",
+      "url": "/?tab=economics",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
